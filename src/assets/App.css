@@ -47,3 +47,11 @@
 	margin: 2rem;
 	padding: 0.6rem 4rem;
 }
+
+.services {
+	height: 35rem;
+}
+
+#service-btn {
+	margin-top: 1rem;
+}

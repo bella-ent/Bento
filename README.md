@@ -1,2 +1,2 @@
 # Bento Project
-- Good food for Good work
+- take a break, take your bento box!

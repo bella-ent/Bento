@@ -1,6 +1,6 @@
 import React from "react";
-import { services } from "../data/services";
-import ServiceCard from "./subComponents/ServiceCard";
+import { services } from "../../../../data/services";
+import ServiceCard from "./ServiceCard";
 
 function Services() {
 	return (

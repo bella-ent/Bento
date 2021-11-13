@@ -1,26 +1,24 @@
 {
   "files": {
-    "main.css": "/bella-ent/Bento/static/css/main.f362f719.chunk.css",
-    "main.js": "/bella-ent/Bento/static/js/main.c036cb5a.chunk.js",
-    "main.js.map": "/bella-ent/Bento/static/js/main.c036cb5a.chunk.js.map",
+    "main.css": "/bella-ent/Bento/static/css/main.213a883b.chunk.css",
+    "main.js": "/bella-ent/Bento/static/js/main.c1cc9220.chunk.js",
+    "main.js.map": "/bella-ent/Bento/static/js/main.c1cc9220.chunk.js.map",
     "runtime-main.js": "/bella-ent/Bento/static/js/runtime-main.bdd7f8cf.js",
     "runtime-main.js.map": "/bella-ent/Bento/static/js/runtime-main.bdd7f8cf.js.map",
     "static/css/2.d8cb5cde.chunk.css": "/bella-ent/Bento/static/css/2.d8cb5cde.chunk.css",
-    "static/js/2.34a64b15.chunk.js": "/bella-ent/Bento/static/js/2.34a64b15.chunk.js",
-    "static/js/2.34a64b15.chunk.js.map": "/bella-ent/Bento/static/js/2.34a64b15.chunk.js.map",
+    "static/js/2.15323b8d.chunk.js": "/bella-ent/Bento/static/js/2.15323b8d.chunk.js",
+    "static/js/2.15323b8d.chunk.js.map": "/bella-ent/Bento/static/js/2.15323b8d.chunk.js.map",
     "index.html": "/bella-ent/Bento/index.html",
     "static/css/2.d8cb5cde.chunk.css.map": "/bella-ent/Bento/static/css/2.d8cb5cde.chunk.css.map",
-    "static/css/main.f362f719.chunk.css.map": "/bella-ent/Bento/static/css/main.f362f719.chunk.css.map",
-    "static/js/2.34a64b15.chunk.js.LICENSE.txt": "/bella-ent/Bento/static/js/2.34a64b15.chunk.js.LICENSE.txt",
-    "static/media/bento-2.57a15a4b.png": "/bella-ent/Bento/static/media/bento-2.57a15a4b.png",
-    "static/media/bento-3.db866575.png": "/bella-ent/Bento/static/media/bento-3.db866575.png",
-    "static/media/bento.41b0b23e.png": "/bella-ent/Bento/static/media/bento.41b0b23e.png"
+    "static/css/main.213a883b.chunk.css.map": "/bella-ent/Bento/static/css/main.213a883b.chunk.css.map",
+    "static/js/2.15323b8d.chunk.js.LICENSE.txt": "/bella-ent/Bento/static/js/2.15323b8d.chunk.js.LICENSE.txt",
+    "static/media/Bento.76ae8111.png": "/bella-ent/Bento/static/media/Bento.76ae8111.png"
   },
   "entrypoints": [
     "static/js/runtime-main.bdd7f8cf.js",
     "static/css/2.d8cb5cde.chunk.css",
-    "static/js/2.34a64b15.chunk.js",
-    "static/css/main.f362f719.chunk.css",
-    "static/js/main.c036cb5a.chunk.js"
+    "static/js/2.15323b8d.chunk.js",
+    "static/css/main.213a883b.chunk.css",
+    "static/js/main.c1cc9220.chunk.js"
   ]
 }

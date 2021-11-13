@@ -9,11 +9,19 @@
 }
 
 .nav {
+	position: sticky;
+	top: 0;
+	z-index: 99;
+	background-color: #ffffff;
 	display: flex;
 	justify-content: space-between;
-	padding: 2rem;
-	/* border: 2px solid salmon; */
+	padding: 0 2rem;
 	align-items: center;
+	height: 5rem;
+}
+#logo {
+	width: 9rem;
+
 }
 
 .link-con {
@@ -23,6 +31,11 @@
 
 .link-con * {
 	margin-left: 2rem;
+}
+
+.link-con *:hover {
+	color: salmon;
+	cursor: pointer;
 }
 
 .menu {

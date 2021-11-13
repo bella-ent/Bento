@@ -24,3 +24,26 @@
 .link-con * {
 	margin-left: 2rem;
 }
+
+.menu {
+	padding: 5rem 0rem ;
+	height: 40rem;
+}
+
+.card-con {
+	display: flex;
+	justify-content: space-around;	
+	margin-top: 3rem;
+}
+
+.menu-card {
+	width: 10rem;
+	height: 15rem;
+	border: 2px solid green;
+	/* margin: 0rem 0.5rem; */
+}
+
+#menu-btn {
+	margin: 2rem;
+	padding: 0.6rem 4rem;
+}

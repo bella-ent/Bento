@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../img/Bento.png";
+import logo from "../../img/Bento.png";
 
 function Nav() {
 	return (

@@ -1,5 +1,5 @@
 import React from "react";
-import { menus } from "../../../../data/menus";
+import { menus } from "../../data/menus";
 import MenuCard from "./MenuCard";
 import { Button } from "react-bootstrap";
 

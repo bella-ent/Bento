@@ -1,9 +1,19 @@
-import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./assets/App.css";
+import Footer from "./components/Footer";
+import Jumbotron from "./components/Jumbotron";
+import Menus from "./components/Menus";
+import Nav from "./components/Nav";
+import Services from "./components/Services";
 
 function App() {
 	return (
 		<div className="App">
-			<h1> React Components </h1>
+			<Nav />
+			<Jumbotron />
+			<Menus />
+			<Services />
+			<Footer />
 		</div>
 	);
 }

@@ -1,3 +1,57 @@
-.App {
+
+
+body{
+    background-image: url(https://cdn1.site-media.eu/images/512/1568226/ptn_02.jpg);
+}
+.about-us{
+
+width:80%;
+ margin: 0 auto;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    width: 80%;
+   margin: 0 auto;
+} 
+.about-us-content{
+	font-size: 44px;
+	font-family: 'Tangerine', cursive;
+}
+.container img{
+	margin-top:5%;
+	width:70%;
+	height: 80%;
+}
+.header{
+    margin: 10% auto 0 auto;
 	text-align: center;
+	font-size: 50px;
+	font-family: 'Trebuchet W01 Regular';
+	width:70%
+}
+.header span{
+	color: rgb(207, 68, 53);
+}
+.icons{
+    position: absolute;
+    top: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.icons{
+	font-size: 50px;
+	font-weight: 800;
+	
+}
+
+.icons i:hover{
+	color: salmon;
+}
+
+.page-container{
+	position: relative;
 }

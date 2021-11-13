@@ -8,23 +8,26 @@ function Jumbotron() {
 				<Carousel.Item>
 					<img
 						className="d-block w-100 jumbotron-img"
-						src="https://asianfoodnetwork.com/content/dam/afn/global/en/articles/bento-box/AFN_Apam_Balik_article_1920x1280_6.jpg"
+						src="https://cf-images.eu-west-1.prod.boltdns.net/v1/static/811631557001/d343662e-5434-49fe-8837-8ac6ab7af365/cac53c31-f005-4d0b-a0c1-fc7f18645d2c/1280x720/match/image.jpg"
 						alt="First slide"
 					/>
 					<Carousel.Caption>
-						<h3>Bento</h3>
-						<p>This is detail</p>
+						<h3>Chicken Bento</h3>
+						<p>
+							Fried Chicken with grilled vegetables. You can choose rice or
+							noodle as well.
+						</p>
 					</Carousel.Caption>
 				</Carousel.Item>
 				<Carousel.Item>
 					<img
 						className="d-block w-100 jumbotron-img"
-						src="https://static3.bigstockphoto.com/2/4/3/large1500/342532552.jpg"
+						src="https://static.dw.com/image/17226619_101.jpg"
 						alt="Second slide"
 					/>
 
 					<Carousel.Caption>
-						<h3>Bento</h3>
+						<h3>SuShi Bento</h3>
 						<p>This is detail</p>
 					</Carousel.Caption>
 				</Carousel.Item>
@@ -36,7 +39,7 @@ function Jumbotron() {
 					/>
 
 					<Carousel.Caption>
-						<h3>Bento</h3>
+						<h3>Beef Bento</h3>
 						<p>This is detail</p>
 					</Carousel.Caption>
 				</Carousel.Item>

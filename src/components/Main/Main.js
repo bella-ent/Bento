@@ -5,7 +5,8 @@ import Services from "../Service/Services";
 
 function Main() {
 	return (
-		<div>
+		<div className="main-con">
+			<h1>Take a break, Take your Bento Box</h1>
 			<Jumbotron />
 			<Menus />
 			<Services />

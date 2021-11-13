@@ -4,9 +4,13 @@ import { Button } from "react-bootstrap";
 function ServiceCard({ service }) {
 	return (
 		<div>
-			<div className="menu-card">
-				<h3>{service.title}</h3>
-				{/* <img src={services.img} alt="img" /> */}
+			<div className="ser-card">
+				<h4>{service.title}</h4>
+				<ul>
+					{service.detail.map((list) => (
+						<li>{list}</li>
+					))}
+				</ul>
 			</div>
 			<Button variant="success" id="service-btn">
 				{service.btn}

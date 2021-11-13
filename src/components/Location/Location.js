@@ -10,6 +10,17 @@ function Location() {
 	}
 	return (
 		<div className="location">
+			<div className="location-title">
+				<div>
+					<h1>We're here now!</h1>
+					<p>Find our daily location</p>
+				</div>
+				<img
+					src="https://media3.giphy.com/media/feiLHLNf3X2zTHNJwS/giphy.gif"
+					alt="img"
+					id="moving-truck"
+				/>
+			</div>
 			<div className="days-locations">
 				<button
 					onClick={() => {
@@ -48,9 +59,8 @@ function Location() {
 				</button>
 			</div>
 			<iframe
+				id="map"
 				src={location}
-				width="600"
-				height="450"
 				style={{ border: 0 }}
 				allowfullscreen=""
 				loading="lazy"

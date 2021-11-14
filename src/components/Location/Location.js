@@ -3,7 +3,7 @@ import { locations } from "../../data/locationData";
 import { useState } from "react";
 
 function Location() {
-	const [UKE, Hammerbrook, Altonaer] = locations;
+	const [UKE, Hammerbrook, Altonaer, StGeorg, Eilbek] = locations;
 	const [location, setLocation] = useState(Hammerbrook.url);
 	function changeLocation(setting) {
 		setLocation(setting.url);
@@ -45,14 +45,14 @@ function Location() {
 				</button>
 				<button
 					onClick={() => {
-						changeLocation(UKE);
+						changeLocation(StGeorg);
 					}}
 				>
 					Thu
 				</button>
 				<button
 					onClick={() => {
-						changeLocation(Hammerbrook);
+						changeLocation(Eilbek);
 					}}
 				>
 					Fri

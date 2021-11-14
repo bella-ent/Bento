@@ -142,10 +142,25 @@ color: rgb(90, 13, 13);
 	max-height:50rem;
 	object-position: center;
 	object-fit: contain;
+	position: relative;
+	/* background-color: #8FC46C; */
 }
 
+.slogan {
+	position: absolute;
+	top:-32rem;
+	left: 12rem;
+	text-shadow: 2px 2px #000000;
+}
+.slogan p {
+	font-family: 'Lobster', cursive;
+	font-size: 3rem;
+}
+
+
+
 .jumbotron-img {
-	max-height: 50rem;
+	max-height: 40rem;
 	object-fit: contain;
 }
 

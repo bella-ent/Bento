@@ -2,6 +2,7 @@ import React from "react";
 import { menus } from "../../data/menus";
 import MenuCard from "./MenuCard";
 import { Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 function Menus() {
 	return (
@@ -12,7 +13,9 @@ function Menus() {
 					<MenuCard key={index} menu={menu} />
 				))}
 			</div>
-			<Button id="menu-btn">See All</Button>
+			<Link to="/menu">
+				<Button id="menu-btn">See All</Button>
+			</Link>
 		</div>
 	);
 }

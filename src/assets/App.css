@@ -239,7 +239,7 @@ a {
 
 .services h1 {
 	color: #ffffff;
-	font-size: 3rem;
+	font-size: 4rem;
 } 
 
 #service-btn {
@@ -422,6 +422,7 @@ padding: 0 2rem;
 	box-shadow: 2px 2px 10px 2px #ccc;
 
 }
+
 .order-list {
 	display: flex;
 	justify-content: space-between;
@@ -434,6 +435,17 @@ padding: 0 2rem;
 #total {
 	margin-top: 2rem;
 	color: #457a44;
+}
+
+#paypal {
+	width: 8rem;
+	border-radius: 1rem;
+	cursor: pointer;
+	border: 5px solid #ccc;
+	margin-left: 0.6rem;
+}
+#paypal:hover {
+	border: 5px solid rgb(129, 129, 129);
 }
 
 .main-menus {

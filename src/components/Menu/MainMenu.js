@@ -16,6 +16,12 @@ function MainMenu() {
 	const [menuName, setMenuName] = useState([]);
 	const [show, setShow] = useState(false);
 
+	function pay() {
+		alert("Thank you for your order. We'll deliver your meal in 30 minutes.");
+		setMenuName([]);
+		setCost(0);
+	}
+
 	return (
 		<div className="main-menu-whole">
 			<h1>Menu</h1>
@@ -41,6 +47,13 @@ function MainMenu() {
 							</div>
 						))}
 						<h2 id="total">Total: €{cost}</h2>
+						<span>Pay Now with: </span>
+						<img
+							onClick={pay}
+							src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlJ3lP1KLAPmfY7zfXyZlGXKwNV7bv_csb8A&usqp=CAU"
+							alt="paypal"
+							id="paypal"
+						/>
 					</div>
 				</div>
 				<Modal

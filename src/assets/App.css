@@ -52,6 +52,7 @@ color: rgb(90, 13, 13);
 .menu {
 	padding: 5rem 0rem ;
 	height: 100%;
+	margin-bottom: 3rem;
 }
 
 .card-con {
@@ -68,6 +69,11 @@ color: rgb(90, 13, 13);
 	border-radius: 1rem;
 
 }
+
+.menu-card * {
+	margin-bottom: 2rem;
+}
+
 .menu-card div{
 /* background-color: #0000004f; */
 height: 100%;
@@ -88,7 +94,7 @@ padding-top: 3rem;
 
 .menu-card h3 {
 	font-size: 2.5rem;
-	margin-bottom: 1rem;
+	margin-bottom: 1.8rem;
 }
 
 .menu-card p {
@@ -96,7 +102,7 @@ padding-top: 3rem;
 }
 
 #menu-btn {
-	margin: 2rem;
+	/* margin: 2rem; */
 	padding: 0.6rem 4rem;
 	font-size: 1.4rem;
 }

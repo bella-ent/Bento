@@ -1,33 +1,37 @@
 {
   "files": {
-    "main.css": "/static/css/main.95e24da6.chunk.css",
-    "main.js": "/static/js/main.0d2d4c31.chunk.js",
-    "main.js.map": "/static/js/main.0d2d4c31.chunk.js.map",
+    "main.css": "/static/css/main.0c7ea3bf.chunk.css",
+    "main.js": "/static/js/main.2133f0c4.chunk.js",
+    "main.js.map": "/static/js/main.2133f0c4.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b6a371dc.js",
     "runtime-main.js.map": "/static/js/runtime-main.b6a371dc.js.map",
     "static/css/2.d8cb5cde.chunk.css": "/static/css/2.d8cb5cde.chunk.css",
-    "static/js/2.5555fdcc.chunk.js": "/static/js/2.5555fdcc.chunk.js",
-    "static/js/2.5555fdcc.chunk.js.map": "/static/js/2.5555fdcc.chunk.js.map",
+    "static/js/2.bfbe987f.chunk.js": "/static/js/2.bfbe987f.chunk.js",
+    "static/js/2.bfbe987f.chunk.js.map": "/static/js/2.bfbe987f.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.d8cb5cde.chunk.css.map": "/static/css/2.d8cb5cde.chunk.css.map",
-    "static/css/main.95e24da6.chunk.css.map": "/static/css/main.95e24da6.chunk.css.map",
-    "static/js/2.5555fdcc.chunk.js.LICENSE.txt": "/static/js/2.5555fdcc.chunk.js.LICENSE.txt",
+    "static/css/main.0c7ea3bf.chunk.css.map": "/static/css/main.0c7ea3bf.chunk.css.map",
+    "static/js/2.bfbe987f.chunk.js.LICENSE.txt": "/static/js/2.bfbe987f.chunk.js.LICENSE.txt",
     "static/media/Bento.76ae8111.png": "/static/media/Bento.76ae8111.png",
+    "static/media/beef.2035da58.png": "/static/media/beef.2035da58.png",
     "static/media/App.css": "/static/media/bg-service.3e94fca0.png",
     "static/media/chicken-leg.497f84e6.png": "/static/media/chicken-leg.497f84e6.png",
+    "static/media/chicken.f3e61201.png": "/static/media/chicken.f3e61201.png",
+    "static/media/fish.a6f6b7ce.png": "/static/media/fish.a6f6b7ce.png",
     "static/media/lunchBox.e4d1b1ab.jpg": "/static/media/lunchBox.e4d1b1ab.jpg",
     "static/media/noodles.d22dbe24.png": "/static/media/noodles.d22dbe24.png",
     "static/media/rice-bowl.df774e15.png": "/static/media/rice-bowl.df774e15.png",
     "static/media/salad.bf70299c.png": "/static/media/salad.bf70299c.png",
     "static/media/shrimp.c5b9312b.png": "/static/media/shrimp.c5b9312b.png",
     "static/media/steak.3d731405.png": "/static/media/steak.3d731405.png",
-    "static/media/tofu.28bfd3a5.png": "/static/media/tofu.28bfd3a5.png"
+    "static/media/tofu.28bfd3a5.png": "/static/media/tofu.28bfd3a5.png",
+    "static/media/vegan.50730c34.png": "/static/media/vegan.50730c34.png"
   },
   "entrypoints": [
     "static/js/runtime-main.b6a371dc.js",
     "static/css/2.d8cb5cde.chunk.css",
-    "static/js/2.5555fdcc.chunk.js",
-    "static/css/main.95e24da6.chunk.css",
-    "static/js/main.0d2d4c31.chunk.js"
+    "static/js/2.bfbe987f.chunk.js",
+    "static/css/main.0c7ea3bf.chunk.css",
+    "static/js/main.2133f0c4.chunk.js"
   ]
 }

@@ -342,6 +342,10 @@ padding: 0 2rem;
 
 }
 
+.main-ser-card-con:nth-child(odd) {
+	flex-direction: row-reverse;
+}
+
 .main-ser-card-con img {
 	width: 100%;
 	border-radius: 2rem;

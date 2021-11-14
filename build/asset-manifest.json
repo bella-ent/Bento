@@ -1,23 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.62432c11.chunk.css",
-    "main.js": "/static/js/main.4bab4dc0.chunk.js",
-    "main.js.map": "/static/js/main.4bab4dc0.chunk.js.map",
+    "main.css": "/static/css/main.2fb9483b.chunk.css",
+    "main.js": "/static/js/main.37f7b518.chunk.js",
+    "main.js.map": "/static/js/main.37f7b518.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b6a371dc.js",
     "runtime-main.js.map": "/static/js/runtime-main.b6a371dc.js.map",
     "static/css/2.d8cb5cde.chunk.css": "/static/css/2.d8cb5cde.chunk.css",
-    "static/js/2.090e4e1c.chunk.js": "/static/js/2.090e4e1c.chunk.js",
-    "static/js/2.090e4e1c.chunk.js.map": "/static/js/2.090e4e1c.chunk.js.map",
+    "static/js/2.c4af3ce0.chunk.js": "/static/js/2.c4af3ce0.chunk.js",
+    "static/js/2.c4af3ce0.chunk.js.map": "/static/js/2.c4af3ce0.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.d8cb5cde.chunk.css.map": "/static/css/2.d8cb5cde.chunk.css.map",
-    "static/css/main.62432c11.chunk.css.map": "/static/css/main.62432c11.chunk.css.map",
-    "static/js/2.090e4e1c.chunk.js.LICENSE.txt": "/static/js/2.090e4e1c.chunk.js.LICENSE.txt",
+    "static/css/main.2fb9483b.chunk.css.map": "/static/css/main.2fb9483b.chunk.css.map",
+    "static/js/2.c4af3ce0.chunk.js.LICENSE.txt": "/static/js/2.c4af3ce0.chunk.js.LICENSE.txt",
+    "static/media/2.ee167825.png": "/static/media/2.ee167825.png",
+    "static/media/3.41004b89.png": "/static/media/3.41004b89.png",
+    "static/media/4.095e70e3.png": "/static/media/4.095e70e3.png",
     "static/media/Bento.76ae8111.png": "/static/media/Bento.76ae8111.png",
+    "static/media/ContactUs.css": "/static/media/PokeBowl.19e33459.jpg",
     "static/media/banner1.d21084e8.png": "/static/media/banner1.d21084e8.png",
     "static/media/banner2.a86f97e7.png": "/static/media/banner2.a86f97e7.png",
     "static/media/banner3.3dd832ed.png": "/static/media/banner3.3dd832ed.png",
     "static/media/beef.2035da58.png": "/static/media/beef.2035da58.png",
-    "static/media/App.css": "/static/media/bg-service.3e94fca0.png",
+    "static/media/App.css": "/static/media/serveicesBg.d6c70c75.jpg",
     "static/media/chicken-leg.497f84e6.png": "/static/media/chicken-leg.497f84e6.png",
     "static/media/chicken.f3e61201.png": "/static/media/chicken.f3e61201.png",
     "static/media/fish.a6f6b7ce.png": "/static/media/fish.a6f6b7ce.png",
@@ -33,8 +37,8 @@
   "entrypoints": [
     "static/js/runtime-main.b6a371dc.js",
     "static/css/2.d8cb5cde.chunk.css",
-    "static/js/2.090e4e1c.chunk.js",
-    "static/css/main.62432c11.chunk.css",
-    "static/js/main.4bab4dc0.chunk.js"
+    "static/js/2.c4af3ce0.chunk.js",
+    "static/css/main.2fb9483b.chunk.css",
+    "static/js/main.37f7b518.chunk.js"
   ]
 }

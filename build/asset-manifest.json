@@ -1,26 +1,33 @@
 {
   "files": {
-    "main.css": "/static/css/main.536ee415.chunk.css",
-    "main.js": "/static/js/main.634b3e88.chunk.js",
-    "main.js.map": "/static/js/main.634b3e88.chunk.js.map",
+    "main.css": "/static/css/main.95e24da6.chunk.css",
+    "main.js": "/static/js/main.0d2d4c31.chunk.js",
+    "main.js.map": "/static/js/main.0d2d4c31.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b6a371dc.js",
     "runtime-main.js.map": "/static/js/runtime-main.b6a371dc.js.map",
     "static/css/2.d8cb5cde.chunk.css": "/static/css/2.d8cb5cde.chunk.css",
-    "static/js/2.138bfb61.chunk.js": "/static/js/2.138bfb61.chunk.js",
-    "static/js/2.138bfb61.chunk.js.map": "/static/js/2.138bfb61.chunk.js.map",
+    "static/js/2.5555fdcc.chunk.js": "/static/js/2.5555fdcc.chunk.js",
+    "static/js/2.5555fdcc.chunk.js.map": "/static/js/2.5555fdcc.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.d8cb5cde.chunk.css.map": "/static/css/2.d8cb5cde.chunk.css.map",
-    "static/css/main.536ee415.chunk.css.map": "/static/css/main.536ee415.chunk.css.map",
-    "static/js/2.138bfb61.chunk.js.LICENSE.txt": "/static/js/2.138bfb61.chunk.js.LICENSE.txt",
+    "static/css/main.95e24da6.chunk.css.map": "/static/css/main.95e24da6.chunk.css.map",
+    "static/js/2.5555fdcc.chunk.js.LICENSE.txt": "/static/js/2.5555fdcc.chunk.js.LICENSE.txt",
     "static/media/Bento.76ae8111.png": "/static/media/Bento.76ae8111.png",
     "static/media/App.css": "/static/media/bg-service.3e94fca0.png",
-    "static/media/lunchBox.e4d1b1ab.jpg": "/static/media/lunchBox.e4d1b1ab.jpg"
+    "static/media/chicken-leg.497f84e6.png": "/static/media/chicken-leg.497f84e6.png",
+    "static/media/lunchBox.e4d1b1ab.jpg": "/static/media/lunchBox.e4d1b1ab.jpg",
+    "static/media/noodles.d22dbe24.png": "/static/media/noodles.d22dbe24.png",
+    "static/media/rice-bowl.df774e15.png": "/static/media/rice-bowl.df774e15.png",
+    "static/media/salad.bf70299c.png": "/static/media/salad.bf70299c.png",
+    "static/media/shrimp.c5b9312b.png": "/static/media/shrimp.c5b9312b.png",
+    "static/media/steak.3d731405.png": "/static/media/steak.3d731405.png",
+    "static/media/tofu.28bfd3a5.png": "/static/media/tofu.28bfd3a5.png"
   },
   "entrypoints": [
     "static/js/runtime-main.b6a371dc.js",
     "static/css/2.d8cb5cde.chunk.css",
-    "static/js/2.138bfb61.chunk.js",
-    "static/css/main.536ee415.chunk.css",
-    "static/js/main.634b3e88.chunk.js"
+    "static/js/2.5555fdcc.chunk.js",
+    "static/css/main.95e24da6.chunk.css",
+    "static/js/main.0d2d4c31.chunk.js"
   ]
 }

@@ -9,6 +9,7 @@
 
 .App {
 	text-align: center;
+
 }
 
 .nav {
@@ -98,7 +99,7 @@ color: rgb(90, 13, 13);
 	font-size: 1.2rem;
 }
 
-#menu-btn,#service-btn {
+#menu-btn,#service-btn,#m-service-btn {
 	/* margin: 2rem; */
 	padding: 0.6rem 4rem;
 	font-size: 1.4rem;
@@ -108,13 +109,13 @@ color: rgb(90, 13, 13);
 	font-weight: 800;
 }
 
-#menu-btn:hover,#service-btn:hover {
+#menu-btn:hover,#service-btn:hover, #m-service-btn:hover {
 	background-color: #618549;	
 }
 
 
 .footer {
-	height: 10rem;
+	height: 8rem;
 	background-color: rgb(4, 36, 4);
 	color: #ffffff;
 	display: flex;
@@ -310,4 +311,53 @@ padding: 0 2rem;
 
 .check-con div {
 	width: 40rem;
+}
+
+/*Main Service */
+
+
+.mainService {
+	background: url("/home/Bella/Desktop/Hackathon/Bento/src/img/forServices/serveicesBg.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	height: 100%;
+	padding-bottom: 8rem;
+
+}
+.mainService h1 {
+	font-family: 'Lobster', cursive;
+	padding-top: 5rem;
+	font-size: 3.5rem;
+	color: #ffffff;
+	text-shadow: 2px 2px #000000;
+}
+.main-ser-card-con {
+	display: flex;
+	background-color: #ffffffc9;
+	margin: 8rem 20% 0 20%;
+	padding: 2rem;
+	border-radius: 1rem;
+	min-width: 700px;
+
+}
+
+.main-ser-card-con img {
+	width: 100%;
+	border-radius: 2rem;
+}
+
+.main-ser-detail {
+	width: 100%;
+	margin-top: 3rem;
+}
+
+.main-ser-detail * {
+	padding: 0 5rem;
+	margin-bottom: 2rem;
+}
+
+.main-ser-detail button {
+	padding: 0;
+	width: 18rem;
 }

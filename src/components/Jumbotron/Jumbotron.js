@@ -1,9 +1,5 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
-import weAre from "../../img/forCarousel/WeAreMake.png";
-import chickenBowl from "../../img/forCarousel/chickenBowl.jpg";
-import pokeBowl from "../../img/forCarousel/PokeBowl.jpg";
-
 import banner1 from "../../img/forBanner/banner1.png";
 import banner2 from "../../img/forBanner/banner2.png";
 import banner3 from "../../img/forBanner/banner3.png";

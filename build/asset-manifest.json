@@ -1,20 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.3a282170.chunk.css",
-    "main.js": "/static/js/main.c587a4a9.chunk.js",
-    "main.js.map": "/static/js/main.c587a4a9.chunk.js.map",
+    "main.css": "/static/css/main.2ca95cef.chunk.css",
+    "main.js": "/static/js/main.17d1780f.chunk.js",
+    "main.js.map": "/static/js/main.17d1780f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b6a371dc.js",
     "runtime-main.js.map": "/static/js/runtime-main.b6a371dc.js.map",
     "static/css/2.d8cb5cde.chunk.css": "/static/css/2.d8cb5cde.chunk.css",
-    "static/js/2.5555fdcc.chunk.js": "/static/js/2.5555fdcc.chunk.js",
-    "static/js/2.5555fdcc.chunk.js.map": "/static/js/2.5555fdcc.chunk.js.map",
+    "static/js/2.090e4e1c.chunk.js": "/static/js/2.090e4e1c.chunk.js",
+    "static/js/2.090e4e1c.chunk.js.map": "/static/js/2.090e4e1c.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.d8cb5cde.chunk.css.map": "/static/css/2.d8cb5cde.chunk.css.map",
-    "static/css/main.3a282170.chunk.css.map": "/static/css/main.3a282170.chunk.css.map",
-    "static/js/2.5555fdcc.chunk.js.LICENSE.txt": "/static/js/2.5555fdcc.chunk.js.LICENSE.txt",
+    "static/css/main.2ca95cef.chunk.css.map": "/static/css/main.2ca95cef.chunk.css.map",
+    "static/js/2.090e4e1c.chunk.js.LICENSE.txt": "/static/js/2.090e4e1c.chunk.js.LICENSE.txt",
     "static/media/Bento.76ae8111.png": "/static/media/Bento.76ae8111.png",
     "static/media/PokeBowl.18d02364.jpg": "/static/media/PokeBowl.18d02364.jpg",
     "static/media/WeAreMake.24a766ae.png": "/static/media/WeAreMake.24a766ae.png",
+    "static/media/banner1.d21084e8.png": "/static/media/banner1.d21084e8.png",
+    "static/media/banner2.a86f97e7.png": "/static/media/banner2.a86f97e7.png",
+    "static/media/banner3.3dd832ed.png": "/static/media/banner3.3dd832ed.png",
     "static/media/beef.2035da58.png": "/static/media/beef.2035da58.png",
     "static/media/App.css": "/static/media/bg-service.3e94fca0.png",
     "static/media/chicken-leg.497f84e6.png": "/static/media/chicken-leg.497f84e6.png",
@@ -33,8 +36,8 @@
   "entrypoints": [
     "static/js/runtime-main.b6a371dc.js",
     "static/css/2.d8cb5cde.chunk.css",
-    "static/js/2.5555fdcc.chunk.js",
-    "static/css/main.3a282170.chunk.css",
-    "static/js/main.c587a4a9.chunk.js"
+    "static/js/2.090e4e1c.chunk.js",
+    "static/css/main.2ca95cef.chunk.css",
+    "static/js/main.17d1780f.chunk.js"
   ]
 }

@@ -4,7 +4,7 @@ import { useState } from "react";
 
 function Location() {
 	const [UKE, Hammerbrook, Altonaer, StGeorg, Eilbek] = locations;
-	const [location, setLocation] = useState(Hammerbrook.url);
+	const [location, setLocation] = useState(UKE.url);
 	function changeLocation(setting) {
 		setLocation(setting.url);
 	}

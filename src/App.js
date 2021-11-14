@@ -11,6 +11,7 @@ import Location from "./components/Location/Location";
 import Order from "./components/Order/Order";
 import Login from "./Login";
 import NavBar from "./components/NavBar/NavBar";
+import ContactUs from "./components/ContactUs/ContactUs";
 
 function App() {
 	return (
@@ -26,6 +27,7 @@ function App() {
 					<Route path="/location" element={<Location />} />
 					<Route path="/order" element={<Order />} />
 					<Route path="/login" element={<Login />} />
+					<Route path="/contact" element={<ContactUs />} />
 				</Routes>
 				<Footer />
 			</Router>

@@ -10,10 +10,10 @@ export const services = [
 		img: "",
 	},
 	{
-		title: "catering for companies events",
+		title: "Catering",
 		detail: [],
 		btn: "book now",
 		img: "",
 	},
-	{ title: "delivery service", detail: [], btn: "order now", img: "" },
+	{ title: "Delivery", detail: [], btn: "order now", img: "" },
 ];

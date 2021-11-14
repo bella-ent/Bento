@@ -56,32 +56,34 @@ color: rgb(90, 13, 13);
 
 .card-con {
 	display: flex;
-	justify-content: space-around;	
+	justify-content: space-evenly;	
 	flex-wrap: wrap;
 	margin-top: 3rem;
 }
 
 .menu-card {
-	width: 30rem;
+	width: 20rem;
 	height: 30rem;
-	position: relative;
-	overflow: hidden;
+	/* overflow: hidden; */
 	border-radius: 1rem;
 
 }
 .menu-card div{
-background-color: #0000004f;
+/* background-color: #0000004f; */
 height: 100%;
 color: #ffffff;
 padding-top: 3rem;
 }
 
 .menu-card img{
-position: absolute;
-top: 0;
-left: -4.2rem;
-height: 100%;
-z-index: -1;
+	width: 10rem;
+	height: 10rem;
+	border-radius: 50%;
+/* position: absolute; */
+/* top: 0; */
+/* left: -4.2rem; */
+/* height: 100%; */
+/* z-index: -1; */
 }
 
 .menu-card h3 {

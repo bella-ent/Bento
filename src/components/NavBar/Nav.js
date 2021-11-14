@@ -12,9 +12,6 @@ function Nav() {
 				<Link to="/about">
 					<li>About Us</li>
 				</Link>
-				<Link to="/concept">
-					<li>Our Concept</li>
-				</Link>
 				<Link to="/services">
 					<li>Services</li>
 				</Link>
@@ -24,11 +21,11 @@ function Nav() {
 				<Link to="/location">
 					<li>Daily Location</li>
 				</Link>
-				<Link to="/order">
+				{/* <Link to="/order">
 					<li>Order</li>
-				</Link>
-				<Link to="/login">
-					<li>Log In</li>
+				</Link> */}
+				<Link to="/contact">
+					<li>Contact Us</li>
 				</Link>
 			</ul>
 		</div>

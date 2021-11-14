@@ -19,7 +19,7 @@
 	background-color: #ffffff;
 	display: flex;
 	justify-content: space-between;
-	padding: 1rem 4rem;
+	padding: 1rem 6rem;
 	align-items: center;
 	height: 100%;
 }
@@ -131,6 +131,7 @@ color: rgb(90, 13, 13);
 }
 
 .jumbotron {
+	/* margin-top: 5rem; */
 	max-height:50rem;
 	object-position: center;
 	object-fit: contain;

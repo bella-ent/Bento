@@ -1,5 +1,6 @@
 import React from "react";
 import { Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 function ServiceCard({ service }) {
 	return (
@@ -12,7 +13,9 @@ function ServiceCard({ service }) {
 					))}
 				</ul>
 			</div>
-			<Button id="service-btn">{service.btn}</Button>
+			<Link to={service.link}>
+				<Button id="service-btn">{service.btn}</Button>
+			</Link>
 		</div>
 	);
 }

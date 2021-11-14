@@ -7,7 +7,7 @@ export const services = [
 			`in 5 locations in the beautiful Hanmburg`,
 		],
 		btn: "see locations",
-		img: "",
+		link: "/location",
 	},
 	{
 		title: "Catering",
@@ -15,7 +15,7 @@ export const services = [
 			"We are more than happy to cater for your company events and parties",
 		],
 		btn: "book now",
-		img: "",
+		link: "/contact",
 	},
 	{
 		title: "Delivery",
@@ -23,6 +23,6 @@ export const services = [
 			"From our fixed kitchen location in Barmbek you can order your lunch break online and we reach it to you.",
 		],
 		btn: "order now",
-		img: "",
+		link: "/menu",
 	},
 ];

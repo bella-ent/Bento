@@ -1,10 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { locations } from "../../data/locationData";
 import { useState } from "react";
+import { useLocation } from "react-router-dom";
 
 function Location() {
-	// const Today = new Date().getDay();
-	const Today = 1;
+	const { pathname } = useLocation();
+
+	useEffect(() => {
+		window.scrollTo(0, 0);
+	}, [pathname]);
+
+	const Today = new Date().getDay();
 	const [Arctic, UKE, Hammerbrook, Altonaer, StGeorg, Eilbek, Arctic2] =
 		locations;
 	const [location, setLocation] = useState(locations[Today].url);

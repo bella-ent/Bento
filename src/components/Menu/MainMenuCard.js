@@ -21,7 +21,9 @@ function MainMenuCard({ menu }) {
 			{menu.detail.map((list) => (
 				<p>{list}</p>
 			))}
-			<Button onClick={addCost}>{menu.btn}</Button>
+			<Button className="m-menu-btn" onClick={addCost}>
+				{menu.btn}
+			</Button>
 		</div>
 	);
 }

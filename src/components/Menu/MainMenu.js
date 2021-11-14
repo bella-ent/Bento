@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import RandomBox from "./RandomBox";
 import { detailMenus, random } from "../../data/menus";
 import MainMenuCard from "./MainMenuCard";
@@ -6,6 +7,11 @@ import orderContext from "../../contexts/orderContext";
 import { Modal } from "react-bootstrap";
 
 function MainMenu() {
+	const { pathname } = useLocation();
+	useEffect(() => {
+		window.scrollTo(0, 0);
+	}, [pathname]);
+
 	const [cost, setCost] = useState(0);
 	const [menuName, setMenuName] = useState([]);
 	const [show, setShow] = useState(false);

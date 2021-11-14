@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
+
 .App {
 	text-align: center;
 }
@@ -15,13 +18,13 @@
 	background-color: #ffffff;
 	display: flex;
 	justify-content: space-between;
-	padding: 0 2rem;
+	padding: 1rem 4rem;
 	align-items: center;
 	height: 100%;
 }
 #logo {
 	width: 15rem;
-
+	
 }
 
 .link-con {
@@ -30,52 +33,94 @@
 }
 
 .link-con * {
-	margin-left: 2rem;
+	margin-left: 1.3rem;
 }
 
 .link-con *:hover {
 	color: salmon;
 	cursor: pointer;
 }
+/* Main */
+
+.main-con h1 {
+font-family: 'Lobster', cursive;
+font-size: 4rem;
+padding: 1rem;
+color: rgb(90, 13, 13);
+}
 
 .menu {
 	padding: 5rem 0rem ;
-	height: 40rem;
+	height: 100%;
+	margin-bottom: 3rem;
+	height: 100%;
 }
 
 .card-con {
 	display: flex;
-	justify-content: space-around;	
+	justify-content: space-evenly;	
+	flex-wrap: wrap;
 	margin-top: 3rem;
+	align-items: center;
+	padding: 0 12%;
 }
 
 .menu-card {
+	width: 15rem;
+	height: 100%;
+	/* overflow: hidden; */
+	border-radius: 1rem;
+	margin-bottom: 2rem;
+
+}
+
+.menu-card * {
+	margin-bottom: 2rem;
+}
+
+.menu-card img{
 	width: 10rem;
-	height: 15rem;
-	border: 2px solid green;
-
+	height: 10rem;
+	border-radius: 50%;
+/* position: absolute; */
+/* top: 0; */
+/* left: -4.2rem; */
+/* height: 100%; */
+/* z-index: -1; */
 }
 
-#menu-btn {
-	margin: 2rem;
+.menu-card h3 {
+	font-size: 2.2rem;
+	margin-bottom: 1.3rem;
+}
+
+.menu-card p {
+	font-size: 1.2rem;
+}
+
+#menu-btn,#service-btn {
+	/* margin: 2rem; */
 	padding: 0.6rem 4rem;
+	font-size: 1.4rem;
+	background-color: #8FC46C;
+	border: none;
+	color: #ffffff;
+	font-weight: 800;
 }
 
-.services {
-	height: 35rem;
+#menu-btn:hover,#service-btn:hover {
+	background-color: #618549;	
 }
 
-#service-btn {
-	margin-top: 1rem;
-}
 
 .footer {
 	height: 10rem;
-	background-color: rgb(0, 49, 0);
+	background-color: rgb(4, 36, 4);
 	color: #ffffff;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+
 }
 
 .here {
@@ -97,26 +142,171 @@
 	max-height:50rem;
 	object-position: center;
 	object-fit: contain;
+	position: relative;
+	/* background-color: #8FC46C; */
 }
 
+.slogan {
+	position: absolute;
+	top:-32rem;
+	left: 12rem;
+	text-shadow: 2px 2px #000000;
+}
+.slogan p {
+	font-family: 'Lobster', cursive;
+	font-size: 3rem;
+}
+
+
+
 .jumbotron-img {
-	max-height: 50rem;
+	max-height: 40rem;
 	object-fit: contain;
 }
 
 .jumbotron-img img {
 	object-fit: contain;
 }
+.location-title {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-top: 5px dotted rgb(250, 166, 177);
+		border-bottom: 5px dotted rgb(250, 166, 177);
+}
+.location-title div {
+	margin-right: 2rem;
+}
+
+.days-locations {
+margin-top: 1rem;
+}
+
+iframe {
+	width: 80%;
+	height: 600px;
+}
 
 .days-locations button {
-	padding: 0.5rem 1rem;
+	padding: 0.7rem 2rem;
 	margin:  0.5rem 0.2rem;
-	background-color: green;
+	background-color: #8FC46C;
 	color: #ffffff;
 	border-radius: 10px;
 	border: none;
 	cursor: pointer;
+	font-size: 1.3rem;
 }
 .days-locations button:hover {
-		background-color: rgb(1, 78, 1);
+		background-color: #DF5454;
+}
+
+#map {
+	margin-bottom: 5rem;
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+	font-size: 1.1rem;
+
+}
+
+/* Service */
+.services {
+	background-image: url('../img/bg-service.png');
+	background-size: cover;
+	background-position: center;
+	height: 100%;
+	margin-bottom: 2rem;
+}
+
+#trans {
+	background-color: #4b4b4b85;
+	height: 100%;
+	padding: 5rem 0rem;
+	border-radius: 10px;
+}
+
+.services h1 {
+	color: #ffffff;
+	font-size: 3rem;
+} 
+
+#service-btn {
+	margin-top: 1rem;
+	padding: 0.7rem 2rem ;
+	font-size: 1.4rem;
+}
+
+
+.ser-card {
+	width: 20rem;
+	height: 20rem;
+	background-color: #ffffffb2;
+	padding-top: 1.3rem;
+
+}
+.ser-card ul {
+	margin-top: 2rem;
+}
+
+.ser-card li {
+text-align: left;
+padding: 0 2rem;
+}
+
+#moving-truck {
+	width: 10rem;
+}
+
+/* Random bento */
+.bento-con {
+	padding: 1rem;
+	width: 400px;
+	height: 400px;
+	border: 5px solid black;
+	background-color: rgb(202, 151, 93);
+	box-shadow: 2px 2px 10px 3px rgb(117, 117, 117);
+	border-radius: 10px;
+	margin-left: 10rem;
+}
+
+.row-bento {
+	width: 100%;
+	height: 50%;
+	border: 1px solid black;
+	display: flex;
+		border-radius: 10px;
+}
+
+.row-bento * {
+	width: 100%;
+	height:100%;
+	border: 1px solid black;
+		border-radius: 10px;
+	
+}
+
+.outer {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+	height: 100%;
+	padding: 0 10rem;
+}
+.check-con {
+	font-size: 2rem;
+	text-align: center;
+	/* padding-left: 10rem; */
+}
+
+.check-con input {
+	transform: scale(2);
+	margin-right: 1rem;
+}
+
+.check-con div {
+	width: 40rem;
 }

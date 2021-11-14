@@ -12,9 +12,7 @@ function ServiceCard({ service }) {
 					))}
 				</ul>
 			</div>
-			<Button variant="success" id="service-btn">
-				{service.btn}
-			</Button>
+			<Button id="service-btn">{service.btn}</Button>
 		</div>
 	);
 }

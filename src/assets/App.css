@@ -53,6 +53,7 @@ color: rgb(90, 13, 13);
 	padding: 5rem 0rem ;
 	height: 100%;
 	margin-bottom: 3rem;
+	height: 100%;
 }
 
 .card-con {
@@ -60,25 +61,21 @@ color: rgb(90, 13, 13);
 	justify-content: space-evenly;	
 	flex-wrap: wrap;
 	margin-top: 3rem;
+	align-items: center;
+	padding: 0 12%;
 }
 
 .menu-card {
-	width: 20rem;
-	height: 30rem;
+	width: 17rem;
+	height: 100%;
 	/* overflow: hidden; */
 	border-radius: 1rem;
+	margin-bottom: 2rem;
 
 }
 
 .menu-card * {
 	margin-bottom: 2rem;
-}
-
-.menu-card div{
-/* background-color: #0000004f; */
-height: 100%;
-color: #ffffff;
-padding-top: 3rem;
 }
 
 .menu-card img{
@@ -93,20 +90,27 @@ padding-top: 3rem;
 }
 
 .menu-card h3 {
-	font-size: 2.5rem;
-	margin-bottom: 1.8rem;
+	font-size: 2.2rem;
+	margin-bottom: 1.3rem;
 }
 
 .menu-card p {
-	font-size: 1.5rem;
+	font-size: 1.2rem;
 }
 
-#menu-btn {
+#menu-btn,#service-btn {
 	/* margin: 2rem; */
 	padding: 0.6rem 4rem;
 	font-size: 1.4rem;
+	background-color: #8FC46C;
+	border: none;
+	color: black;
+	font-weight: 800;
 }
 
+#menu-btn:hover,#service-btn:hover {
+	background-color: #618549;	
+}
 
 
 .footer {
@@ -171,7 +175,7 @@ iframe {
 .days-locations button {
 	padding: 0.7rem 2rem;
 	margin:  0.5rem 0.2rem;
-	background-color: green;
+	background-color: #8FC46C;
 	color: #ffffff;
 	border-radius: 10px;
 	border: none;
@@ -179,7 +183,7 @@ iframe {
 	font-size: 1.3rem;
 }
 .days-locations button:hover {
-		background-color: rgb(240, 154, 154);
+		background-color: #DF5454;
 }
 
 #map {

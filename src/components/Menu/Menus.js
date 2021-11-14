@@ -12,9 +12,7 @@ function Menus() {
 					<MenuCard key={index} menu={menu} />
 				))}
 			</div>
-			<Button variant="success" id="menu-btn">
-				See All
-			</Button>
+			<Button id="menu-btn">See All</Button>
 		</div>
 	);
 }

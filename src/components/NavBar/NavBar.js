@@ -1,8 +1,17 @@
 import React from "react";
 import logo from "../../img/Bento.png";
 import { Link } from "react-router-dom";
+import {
+	Navbar,
+	NavDropdown,
+	Container,
+	Nav,
+	FormControl,
+	Form,
+	Button,
+} from "react-bootstrap";
 
-function Nav() {
+function NavBar() {
 	return (
 		<div className="nav">
 			<Link to="/">
@@ -21,9 +30,6 @@ function Nav() {
 				<Link to="/location">
 					<li>Daily Location</li>
 				</Link>
-				{/* <Link to="/order">
-					<li>Order</li>
-				</Link> */}
 				<Link to="/contact">
 					<li>Contact Us</li>
 				</Link>
@@ -32,4 +38,4 @@ function Nav() {
 	);
 }
 
-export default Nav;
+export default NavBar;

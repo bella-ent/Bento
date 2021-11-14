@@ -3,8 +3,11 @@ import { locations } from "../../data/locationData";
 import { useState } from "react";
 
 function Location() {
-	const [UKE, Hammerbrook, Altonaer, StGeorg, Eilbek] = locations;
-	const [location, setLocation] = useState(UKE.url);
+	// const Today = new Date().getDay();
+	const Today = 1;
+	const [Arctic, UKE, Hammerbrook, Altonaer, StGeorg, Eilbek, Arctic2] =
+		locations;
+	const [location, setLocation] = useState(locations[Today].url);
 	function changeLocation(setting) {
 		setLocation(setting.url);
 	}
@@ -13,7 +16,7 @@ function Location() {
 			<div className="location-title">
 				<div>
 					<h1>We're here now!</h1>
-					<p>Find our daily location</p>
+					<h4>Find our daily location</h4>
 				</div>
 				<img
 					src="https://media3.giphy.com/media/feiLHLNf3X2zTHNJwS/giphy.gif"
@@ -23,6 +26,11 @@ function Location() {
 			</div>
 			<div className="days-locations">
 				<button
+					style={
+						locations[Today].name === "UKE"
+							? { backgroundColor: "#FF7272" }
+							: {}
+					}
 					onClick={() => {
 						changeLocation(UKE);
 					}}
@@ -30,6 +38,11 @@ function Location() {
 					Mon
 				</button>
 				<button
+					style={
+						locations[Today].name === "Hammerbrook"
+							? { backgroundColor: "#FF7272" }
+							: {}
+					}
 					onClick={() => {
 						changeLocation(Hammerbrook);
 					}}
@@ -37,6 +50,11 @@ function Location() {
 					Tue
 				</button>
 				<button
+					style={
+						locations[Today].name === "Altonaer Fischmarkt"
+							? { backgroundColor: "#FF7272" }
+							: {}
+					}
 					onClick={() => {
 						changeLocation(Altonaer);
 					}}
@@ -44,6 +62,11 @@ function Location() {
 					Wed
 				</button>
 				<button
+					style={
+						locations[Today].name === "St. Georg"
+							? { backgroundColor: "#FF7272" }
+							: {}
+					}
 					onClick={() => {
 						changeLocation(StGeorg);
 					}}
@@ -51,6 +74,11 @@ function Location() {
 					Thu
 				</button>
 				<button
+					style={
+						locations[Today].name === "Eilbek"
+							? { backgroundColor: "#FF7272" }
+							: {}
+					}
 					onClick={() => {
 						changeLocation(Eilbek);
 					}}

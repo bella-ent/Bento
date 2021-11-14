@@ -39,20 +39,45 @@ export const menus = [
 
 export const detailMenus = [
 	{
-		title: "Vegeterain Bento",
+		title: "Vegan Bento",
+		detail: [
+			"Enjoy your lunch break with healthy, tasty, and 100% plant-based meals",
+		],
+		img: vegan,
+		price: 10,
+		btn: "Order",
+	},
+	{
+		title: "Fish Bento",
+		detail: [
+			"Weather you like Salmon or Tuna, row or cooked, we have it for you",
+		],
+		img: fish,
+		price: 10,
+		btn: "Order",
+	},
+	{
+		title: "Beef Bento",
+		detail: ["The authentic taste of the popular quick meal in Japan "],
+		img: beef,
+		price: 10,
+		btn: "Order",
+	},
+	{
+		title: "Chicken Bento",
 		detail: [
 			"A delicious combination of chicken, fresh vegetables and grains ",
 		],
-		img: "https://static.wixstatic.com/media/658eef_ba2d781c674b469996dc5d6ecc6f0eb2~mv2.jpg/v1/fill/w_1280,h_800,al_c,q_85/658eef_ba2d781c674b469996dc5d6ecc6f0eb2~mv2.jpg",
-	},
-	{
-		title: "Meat Bento",
-		detail: ["Beef and Chicken available", "Balanced Meal for you"],
-		img: "https://salmonheadsushi.com.au/wp-content/uploads/2021/02/Beef-Bento.png",
-	},
-	{
-		title: "Random Bento",
-		detail: ["You can choose all you want!", "fun to select your meal"],
-		img: "https://cdn.shopify.com/s/files/1/0115/5776/5179/products/loot-box-ol-512.png?v=1576127282",
+		img: chicken,
+		price: 10,
+		btn: "Order",
 	},
 ];
+
+export const random = {
+	title: "Custom Bento",
+	detail: ["You can choose all you want! fun to select your meal"],
+	img: "https://cdn.shopify.com/s/files/1/0115/5776/5179/products/loot-box-ol-512.png?v=1576127282",
+	price: 10,
+	btn: "Select Ingredients",
+};

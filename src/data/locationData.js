@@ -1,5 +1,10 @@
 export const locations = [
 	{
+		id: 0,
+		name: "Arctic",
+		url: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24939080.469900534!2d0!3d67.57267404999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4e753c9b20485bfd%3A0x4e5f0d379253c31!2sArctic!5e0!3m2!1sen!2sde!4v1636927349552!5m2!1sen!2sde",
+	},
+	{
 		id: 1,
 		name: "UKE",
 		url: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2368.295661796961!2d9.972848851136371!3d53.588185964172354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b1895bdea3da7b%3A0x34fef793ac8aa2b0!2sUKE!5e0!3m2!1sen!2sde!4v1636744770709!5m2!1sen!2sde",
@@ -23,5 +28,10 @@ export const locations = [
 		id: 5,
 		name: "Eilbek",
 		url: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9477.971509019355!2d10.040638088992647!3d53.56681967884344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b18eb10dd7f0bb%3A0x5263df27bd5e7d0!2sEilbek%2C%20Hamburg!5e0!3m2!1sen!2sde!4v1636906228300!5m2!1sen!2sde",
+	},
+	{
+		id: 6,
+		name: "Arctic",
+		url: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24939080.469900534!2d0!3d67.57267404999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4e753c9b20485bfd%3A0x4e5f0d379253c31!2sArctic!5e0!3m2!1sen!2sde!4v1636927349552!5m2!1sen!2sde",
 	},
 ];

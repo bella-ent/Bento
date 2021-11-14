@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useContext } from "react";
 import shrimp from "../../img/shrimp.png";
 import salad from "../../img/salad.png";
 import steak from "../../img/steak.png";
@@ -7,8 +7,10 @@ import chicken from "../../img/chicken-leg.png";
 import tofu from "../../img/tofu.png";
 import noodle from "../../img/noodles.png";
 import { Button } from "react-bootstrap";
+import orderContext from "../../contexts/orderContext";
 
 function RandomBox() {
+	const { cost, setCost, menuName, setMenuName } = useContext(orderContext);
 	const selections = [
 		{ selection: "shrimp", icon: shrimp },
 		{ selection: "chicken", icon: chicken },
@@ -38,10 +40,18 @@ function RandomBox() {
 				: ingredients.filter((item) => item.selection !== check.current.name)
 		);
 	}
-	console.log(ingredients);
+	function addCost() {
+		if (ingredients.length === 4) {
+			setCost(cost + 10);
+			setMenuName([...menuName, "Custom Bento"]);
+			alert("Your custom Bento is added to your cart");
+		} else {
+			alert("There should be 4 ingredients in your bento.");
+		}
+	}
 	return (
-		<>
-			<h1>Random Lunch Box</h1>
+		<div className="random">
+			{/* <h1>Customizable Lunch Box</h1> */}
 			<div className="outer">
 				<div className="bento-con">
 					<div className="row-bento">
@@ -140,12 +150,12 @@ function RandomBox() {
 							<label for="noodle">noodle</label>
 						</div>
 					</div>
-					<Button variant="success" id="menu-btn">
+					<Button onClick={addCost} variant="success" id="menu-btn">
 						Order Now
 					</Button>
 				</div>
 			</div>
-		</>
+		</div>
 	);
 }
 

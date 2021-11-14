@@ -76,67 +76,69 @@ function RandomBox() {
 				<div className="check-con">
 					<h1>Ingredients</h1>
 					<div>
-						<input
-							onClick={() => addIngredients(checkbox1)}
-							ref={checkbox1}
-							type="checkbox"
-							name="shrimp"
-						/>
-						<label for="shrimp">shrimp</label>
-					</div>
-					<div>
-						<input
-							onClick={() => addIngredients(checkbox3)}
-							ref={checkbox3}
-							type="checkbox"
-							name="beef"
-						/>
-						<label for="beef">beef</label>
-					</div>
-					<div>
-						<input
-							onClick={() => addIngredients(checkbox5)}
-							ref={checkbox5}
-							type="checkbox"
-							name="chicken"
-						/>
-						<label for="chicken">chicken</label>
-					</div>
-					<div>
-						<input
-							onClick={() => addIngredients(checkbox2)}
-							ref={checkbox2}
-							type="checkbox"
-							name="salad"
-						/>
-						<label for="salad">salad</label>
-					</div>
-					<div>
-						<input
-							onClick={() => addIngredients(checkbox6)}
-							ref={checkbox6}
-							type="checkbox"
-							name="tofu"
-						/>
-						<label for="tofu">tofu</label>
-					</div>
-					<div>
-						<input
-							onClick={() => addIngredients(checkbox4)}
-							ref={checkbox4}
-							type="checkbox"
-							name="rice"
-						/>
-						<label for="rice">rice</label>
-					</div>
-					<div>
-						<input
-							onClick={() => addIngredients(checkbox7)}
-							ref={checkbox7}
-							type="checkbox"
-							name="noodle"
-						/>
-						<label for="noodle">noodle</label>
+						<div>
+							<input
+								onClick={() => addIngredients(checkbox1)}
+								ref={checkbox1}
+								type="checkbox"
+								name="shrimp"
+							/>
+							<label for="shrimp">shrimp</label>
+						</div>
+						<div>
+							<input
+								onClick={() => addIngredients(checkbox3)}
+								ref={checkbox3}
+								type="checkbox"
+								name="beef"
+							/>
+							<label for="beef">beef</label>
+						</div>
+						<div>
+							<input
+								onClick={() => addIngredients(checkbox5)}
+								ref={checkbox5}
+								type="checkbox"
+								name="chicken"
+							/>
+							<label for="chicken">chicken</label>
+						</div>
+						<div>
+							<input
+								onClick={() => addIngredients(checkbox2)}
+								ref={checkbox2}
+								type="checkbox"
+								name="salad"
+							/>
+							<label for="salad">salad</label>
+						</div>
+						<div>
+							<input
+								onClick={() => addIngredients(checkbox6)}
+								ref={checkbox6}
+								type="checkbox"
+								name="tofu"
+							/>
+							<label for="tofu">tofu</label>
+						</div>
+						<div>
+							<input
+								onClick={() => addIngredients(checkbox4)}
+								ref={checkbox4}
+								type="checkbox"
+								name="rice"
+							/>
+							<label for="rice">rice</label>
+						</div>
+						<div>
+							<input
+								onClick={() => addIngredients(checkbox7)}
+								ref={checkbox7}
+								type="checkbox"
+								name="noodle"
+							/>
+							<label for="noodle">noodle</label>
+						</div>
 					</div>
 					<Button variant="success" id="menu-btn">
 						Order Now

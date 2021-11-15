@@ -42,7 +42,7 @@ function MainMenu() {
 					<div className="order">
 						<h2 id="order-title">Order</h2>
 						{!cost ? (
-							<h5>please select your meal</h5>
+							<h5 id="select-meal">Please select your meal</h5>
 						) : (
 							menuName.map((menu) => (
 								<div className="order-list">

@@ -77,7 +77,7 @@ function ContactUs() {
 										<label for="contact">
 											How do you like to be contacted?
 										</label>
-										<br></br>
+									    <br></br>
 										<label for="contactP">phone</label>
 										<input type="radio" name="Contact" id="contactP" />
 

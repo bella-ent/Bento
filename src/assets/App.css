@@ -344,15 +344,10 @@ padding: 0 2rem;
 	width: 40rem;
 }
 
-
-
-
-
 /*Main Service */
 
-
 .mainService {
-	background: url("/home/Bella/Desktop/Hackathon/Bento/src/img/forServices/serveicesBg.jpg");
+	background: url("../img/forServices/serveicesBg.jpg");
 	background-attachment: fixed;
 	background-position: center;
 	background-size: cover;

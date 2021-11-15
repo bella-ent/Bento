@@ -59,3 +59,12 @@ font-family: 'Lobster', cursive;
 .contact-form-parent{
     width: 35%;
 }
+
+label{
+  text-align: left;
+}
+
+.contact {
+  text-align: left;
+  margin-left: 30px;
+}

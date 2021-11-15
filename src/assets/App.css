@@ -566,6 +566,9 @@ padding: 0 2rem;
 	
 }
 @media screen and (max-width: 780px) {
+	.nav {
+	padding: 1rem 2rem;
+	}
 #logo {
 	width: 7rem;	
 }

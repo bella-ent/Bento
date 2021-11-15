@@ -20,13 +20,43 @@ export const menus = [
 	},
 	{
 		title: "Beef",
-		detail: ["The authentic taste of the popular quick meal in Japan "],
+		detail: ["The authentic taste of the popular quick meal in Japan"],
+		img: beef,
+	},
+	{
+		title: "Chicken",
+		detail: ["A delicious combination of chicken, fresh vegetables and grains"],
+		img: chicken,
+	},
+	// {
+	// 	title: "Random Bento",
+	// 	detail: ["The authentic taste of the popular quick meal in Japan "],
+	// 	img: "https://cdn.shopify.com/s/files/1/0115/5776/5179/products/loot-box-ol-512.png?v=1576127282",
+	// },
+];
+
+export const menusDE = [
+	{
+		title: "Vegan",
+		detail: ["Genieße gesunden, leckeren und 100 % pflanzlichen Mahlzeiten "],
+		img: vegan,
+	},
+	{
+		title: "Fisch",
+		detail: ["Ob Sie Lachs oder Thunfisch mögen, wir haben es für Sie"],
+		img: fish,
+	},
+	{
+		title: "Beef",
+		detail: [
+			"Der authentische Geschmack des beliebten schnellen Essens in Japan",
+		],
 		img: beef,
 	},
 	{
 		title: "Chicken",
 		detail: [
-			"A delicious combination of chicken, fresh vegetables and grains ",
+			"Eine köstliche Kombination aus Hühnchen, frischem Gemüse und Getreide",
 		],
 		img: chicken,
 	},

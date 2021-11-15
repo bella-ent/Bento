@@ -10,6 +10,7 @@ function Main() {
 	useEffect(() => {
 		window.scrollTo(0, 0);
 	}, [pathname]);
+
 	return (
 		<div className="main-con">
 			{/* <h1>Take a break, Take your Bento Box</h1> */}

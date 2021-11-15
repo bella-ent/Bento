@@ -1,9 +1,15 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef, useContext } from "react";
 import logo from "../../img/Bento.png";
 import { Link } from "react-router-dom";
 import hamburger from "../../img/icons/hamburger.png";
+import languageContext from "../../contexts/languageContext";
+import { navEn, navDe } from "../../data/navData";
 
 function NavBar() {
+	const { lang, setLang } = useContext(languageContext);
+	function setLanguage(e) {
+		setLang(e.target.value);
+	}
 	const [show, setShow] = useState(false);
 	function showDropNav() {
 		setShow(!show);
@@ -16,7 +22,18 @@ function NavBar() {
 					<img src={logo} id="logo" alt="logo" />
 				</Link>
 				<ul className="link-con">
-					<Link to="/about">
+					{lang === "en"
+						? navEn.map(({ title, link }) => (
+								<Link to={link}>
+									<li>{title}</li>
+								</Link>
+						  ))
+						: navDe.map(({ title, link }) => (
+								<Link to={link}>
+									<li>{title}</li>
+								</Link>
+						  ))}
+					{/* <Link to="/about">
 						<li>About Us</li>
 					</Link>
 					<Link to="/services">
@@ -30,7 +47,18 @@ function NavBar() {
 					</Link>
 					<Link to="/contact">
 						<li>Contact Us</li>
-					</Link>
+					</Link> */}
+					<select name="" id="languages">
+						<option value="" onClick={setLanguage} selected disabled>
+							Language
+						</option>
+						<option value="en" onClick={setLanguage}>
+							English
+						</option>
+						<option value="de" onClick={setLanguage}>
+							Deutsch
+						</option>
+					</select>
 				</ul>
 				<img onClick={showDropNav} src={hamburger} alt="menu" id="hamburger" />
 			</div>
@@ -39,21 +67,17 @@ function NavBar() {
 					style={!show ? { display: "none" } : { display: "block" }}
 					className="drop-con"
 				>
-					<Link to="/about">
-						<li onClick={showDropNav}>About Us</li>
-					</Link>
-					<Link to="/services">
-						<li onClick={showDropNav}>Services</li>
-					</Link>
-					<Link to="/menu">
-						<li onClick={showDropNav}>Menu</li>
-					</Link>
-					<Link to="/location">
-						<li onClick={showDropNav}>Daily Location</li>
-					</Link>
-					<Link to="/contact">
-						<li onClick={showDropNav}>Contact Us</li>
-					</Link>
+					{lang === "en"
+						? navEn.map(({ title, link }) => (
+								<Link to={link}>
+									<li>{title}</li>
+								</Link>
+						  ))
+						: navDe.map(({ title, link }) => (
+								<Link to={link}>
+									<li>{title}</li>
+								</Link>
+						  ))}
 				</ul>
 			</div>
 		</>

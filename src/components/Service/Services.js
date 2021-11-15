@@ -9,7 +9,7 @@ function Services() {
 	return (
 		<div className="services">
 			<div id="trans">
-				<h1>{lang === "en" ? "Our Services" : "Unsere Service"}</h1>
+				<h1>{lang === "en" ? "Our Services" : "Unsere Services"}</h1>
 				<div className="card-con">
 					{lang === "en"
 						? services.map((service, index) => (

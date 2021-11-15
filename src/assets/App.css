@@ -342,9 +342,14 @@ padding: 0 2rem;
 	background-position: center;
 	background-size: cover;
 	height: 100%;
-	padding-bottom: 8rem;
-
 }
+
+#bg-m-service {
+	background-color: #0000003b;
+	height: 100%;
+		padding-bottom: 8rem;
+}
+
 .mainService h1 {
 	font-family: 'Lobster', cursive;
 	padding-top: 5rem;

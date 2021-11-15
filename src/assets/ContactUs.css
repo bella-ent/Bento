@@ -3,11 +3,12 @@
 
   background-size: cover;
 }
+
 .contact-box {
   background-color: rgba(0, 0, 0, 0.7);
   color: cornsilk;
   text-align: center;
-  padding-top: 1%;
+  padding-top: 3%;
 }
 .flex {
   display: flex;
@@ -27,7 +28,8 @@
   gap: 10px;
 }
 .contact-box h2 {
-  font-size: 80px;
+  font-size: 4rem;
+font-family: 'Lobster', cursive;
 }
 
 .button,

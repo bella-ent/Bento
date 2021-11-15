@@ -16,7 +16,7 @@ function MainMenuCard({ menu }) {
 	return (
 		<div className="main-menu-card">
 			<img src={menu.img} alt="img" />
-			<h3>{menu.title}</h3>
+			<h4>{menu.title}</h4>
 			{/* <p>{menu.detail}</p> */}
 			{menu.detail.map((list) => (
 				<p>{list}</p>

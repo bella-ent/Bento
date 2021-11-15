@@ -47,14 +47,14 @@ export const menusDE = [
 		img: fish,
 	},
 	{
-		title: "Beef",
+		title: "Rindfleisch",
 		detail: [
 			"Der authentische Geschmack des beliebten schnellen Essens in Japan",
 		],
 		img: beef,
 	},
 	{
-		title: "Chicken",
+		title: "Hähnchen",
 		detail: [
 			"Eine köstliche Kombination aus Hühnchen, frischem Gemüse und Getreide",
 		],

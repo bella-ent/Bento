@@ -542,16 +542,21 @@ padding: 0 2rem;
 }
 
 @media screen and (max-width: 1060px) {
-  .link-con li {
-    font-size: 0.9rem;
-  }
-
+	.link-con li {
+		font-size: 0.9rem;
+	}
 }
 
 @media screen and (max-width: 1000px) {
   .link-con li {
-    display: none;
-  }  #hamburger {
-	  display: block;
-  }
+	  display: none;
+	}  #hamburger {
+		display: block;
+	}
+}
+@media screen and (min-width: 1060px) {
+	.drop-con li {
+		display: none;
+	}
+	
 }

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import logo from "../../img/Bento.png";
 import { Link } from "react-router-dom";
 import hamburger from "../../img/icons/hamburger.png";
@@ -8,6 +8,7 @@ function NavBar() {
 	function showDropNav() {
 		setShow(!show);
 	}
+
 	return (
 		<>
 			<div className="nav">
@@ -39,19 +40,19 @@ function NavBar() {
 					className="drop-con"
 				>
 					<Link to="/about">
-						<li>About Us</li>
+						<li onClick={showDropNav}>About Us</li>
 					</Link>
 					<Link to="/services">
-						<li>Services</li>
+						<li onClick={showDropNav}>Services</li>
 					</Link>
 					<Link to="/menu">
-						<li>Menu</li>
+						<li onClick={showDropNav}>Menu</li>
 					</Link>
 					<Link to="/location">
-						<li>Daily Location</li>
+						<li onClick={showDropNav}>Daily Location</li>
 					</Link>
 					<Link to="/contact">
-						<li>Contact Us</li>
+						<li onClick={showDropNav}>Contact Us</li>
 					</Link>
 				</ul>
 			</div>

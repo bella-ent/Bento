@@ -13,10 +13,10 @@ function AboutUs() {
 				</p>
 				<div className="container">
 					<div className="about-us-content">
-						<ul>
+						{/* <ul>
 							Bento consists of items such as rice, vegetables, and sashimi.
 							Chicken, Beef, Fish, or egg are optional.
-						</ul>
+						</ul> */}
 						<ul>
 							We provide fresh and healthy Bento lunch boxes to different
 							locations near your workplaces in Hamburg. We also have delivery

@@ -17,17 +17,15 @@ function ContactUs() {
 					<div class="flex">
 						<div class="contact-info">
 							<p>
-								Do you have any questions or other concerns? Then simply contact
-								us at <a href="tel:0176-70834316">0176-70834316</a>, <br />
-								or write to us at{" "}
-								<a href="mailto: info@bentofoodtruck.de ">
+								You are planning an event or have questions?<br></br> Reach out to us via our form or email
+								us at	<a href="mailto: info@bentofoodtruck.de "> <br></br>
 									info@bentofoodtruck.de
-								</a>{" "}
-								or use the contact form below.
+								</a>{" "} You can also reach us directly  Mon - Fri , 10.00 - 17.00 under <a href="tel:0176-70834316">0176-70834316</a>.
+								
 							</p>
-							<p>
+							{/* <p>
 								For more information, visit us on our social media channels:
-							</p>
+							</p> */}
 						</div>
 
 						<div class="contact-form-parent">

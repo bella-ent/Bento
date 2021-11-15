@@ -9,7 +9,7 @@ function Menus() {
 	const { lang } = useContext(languageContext);
 	return (
 		<div className="menu">
-			<h1>Our Menu</h1>
+			<h1>{lang === "en" ? "Our Menu" : "Unser Menü"}</h1>
 			<div className="card-con">
 				{lang === "en"
 					? menus.map((menu, index) => <MenuCard key={index} menu={menu} />)

@@ -25,7 +25,7 @@
 }
 #logo {
 	width: 15rem;
-	animation: doneShake 1.5s
+	animation: shake 1.5s
 	
 }
 
@@ -592,7 +592,7 @@ width: 2rem;}
 }
 
 
-@keyframes doneShake {
+@keyframes shake {
 	0%,
 	100% {
 		transform: rotate(0deg);

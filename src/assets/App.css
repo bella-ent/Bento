@@ -372,6 +372,7 @@ padding: 0 2rem;
 	padding: 2rem;
 	border-radius: 1rem;
 	min-width: 700px;
+	/* margin-bottom: 2rem; */
 
 }
 
@@ -553,6 +554,10 @@ padding: 0 2rem;
 	}  #hamburger {
 		display: block;
 	}
+	/* .main-ser-card-con {
+	padding-bottom: 2rem;
+
+} */
 }
 @media screen and (min-width: 1060px) {
 	.drop-con li {
@@ -560,3 +565,14 @@ padding: 0 2rem;
 	}
 	
 }
+@media screen and (max-width: 780px) {
+#logo {
+	width: 7rem;	
+}
+#hamburger {
+width: 2rem;}
+}
+
+
+
+

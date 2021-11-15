@@ -28,7 +28,7 @@ function AboutUs() {
 						</ul>
 					</div>
 					<div>
-						<img src={lunchBox} alt="lunch box pic" />
+						<img src={lunchBox} alt="lunch box pic" id="lunchbox" />
 					</div>
 				</div>
 			</div>

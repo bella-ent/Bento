@@ -447,6 +447,10 @@ padding: 0 2rem;
 	border-radius: 5px;
 } */
 
+#select-meal {
+	font-size: 1rem;
+}
+
 .order-list {
 	display: flex;
 	justify-content: space-between;
@@ -454,11 +458,13 @@ padding: 0 2rem;
 
 #order-title {
 	margin-bottom: 2rem;
-	color: #FF7272
+	color: #FF7272;
+	font-size: 1.5rem;
 }
 #total {
 	margin-top: 2rem;
 	color: #457a44;
+	font-size: 1.5rem;
 }
 
 #paypal {

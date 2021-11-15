@@ -7,7 +7,7 @@ function AboutUs() {
 		<div className="page-container">
 			<div className="about-us">
 				<p className="header">
-					<span>"Bento Food Truck-</span>
+					<span>"Bento Food Truck" </span>
 					is the first Japanese style packed lunch carrying food truck in
 					Hamburg."
 				</p>

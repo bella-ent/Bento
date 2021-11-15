@@ -25,7 +25,7 @@
 }
 #logo {
 	width: 15rem;
-	/* height: 8rem; */
+	animation: doneShake 1.5s
 	
 }
 
@@ -591,6 +591,33 @@ width: 2rem;}
 
 }
 
+
+@keyframes doneShake {
+	0%,
+	100% {
+		transform: rotate(0deg);
+		transform-origin: 50% 100%;
+	}
+	10% {
+		transform: rotate(2deg);
+	}
+	20%,
+	40%,
+	60% {
+		transform: rotate(-4deg);
+	}
+	30%,
+	50%,
+	70% {
+		transform: rotate(4deg);
+	}
+	80% {
+		transform: rotate(-2deg);
+	}
+	90% {
+		transform: rotate(2deg);
+	}
+}
 
 
 

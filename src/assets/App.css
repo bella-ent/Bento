@@ -25,6 +25,7 @@
 }
 #logo {
 	width: 15rem;
+	/* height: 8rem; */
 	
 }
 
@@ -107,7 +108,7 @@ color: rgb(90, 13, 13);
 	margin-top: 2rem;
 }
 
-#menu-btn,#service-btn,#m-service-btn, .m-menu-btn {
+#menu-btn,#service-btn, .m-menu-btn {
 	/* margin: 2rem; */
 	padding: 0.6rem 4rem;
 	font-size: 1.4rem;
@@ -119,6 +120,13 @@ color: rgb(90, 13, 13);
 
 #m-service-btn {
 	background-color: #82E080;
+	position: absolute;
+	bottom: 0;
+	padding: 0.6rem 0;
+	margin-bottom: 0;
+	font-size: 1.2rem;
+	border: none;
+	width: 45%;
 }
 
 .m-menu-btn {
@@ -378,8 +386,9 @@ padding: 0 2rem;
 
 .main-ser-detail {
 	width: 100%;
-	margin-top: 3rem;
+	margin-top: 2rem;
 	text-align: left;
+	position: relative;
 }
 
 .main-ser-detail * {
@@ -514,4 +523,3 @@ padding: 0 2rem;
 	width: 2.5rem;
 	margin: 0.2rem 1rem;
 }
-

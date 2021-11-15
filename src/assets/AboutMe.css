@@ -18,11 +18,12 @@ width:100%;
    margin: 4rem auto;
 } 
 .about-us-content{
-	font-size: 2rem;
+	font-size: 1.5rem;
 	font-family: 'Tangerine', cursive;
+	text-align: left;
 }
 .container img{
-	margin-top:5%;
+	/* margin-top:5%; */
 	width: 30rem;
 	height: 20rem;
 }

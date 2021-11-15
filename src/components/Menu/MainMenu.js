@@ -41,11 +41,15 @@ function MainMenu() {
 
 					<div className="order">
 						<h2 id="order-title">Order</h2>
-						{menuName.map((menu) => (
-							<div className="order-list">
-								<span>{menu}</span> <span> €10 x 1</span>
-							</div>
-						))}
+						{!cost ? (
+							<h5>please select your meal</h5>
+						) : (
+							menuName.map((menu) => (
+								<div className="order-list">
+									<span>{menu}</span> <span> €10 x 1</span>
+								</div>
+							))
+						)}
 						<h2 id="total">Total: €{cost}</h2>
 						<span>Pay Now with: </span>
 						<img

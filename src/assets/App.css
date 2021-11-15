@@ -523,3 +523,35 @@ padding: 0 2rem;
 	width: 2.5rem;
 	margin: 0.2rem 1rem;
 }
+
+#hamburger {
+	width: 3rem;
+	border: 2px solid #ccc;
+	padding: 0.3rem;
+	border-radius: 5px;
+	display: none;
+	cursor: pointer;
+}
+
+.drop-con {
+	list-style: none;
+}
+
+#hamburger:hover {
+		border: 2px solid #FF7272;
+}
+
+@media screen and (max-width: 1060px) {
+  .link-con li {
+    font-size: 0.9rem;
+  }
+
+}
+
+@media screen and (max-width: 1000px) {
+  .link-con li {
+    display: none;
+  }  #hamburger {
+	  display: block;
+  }
+}

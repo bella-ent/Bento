@@ -238,6 +238,10 @@ a {
 	margin-bottom: 6rem;
 }
 
+.ser-card-con {
+	margin-bottom: 2rem;
+}
+
 #trans {
 	background-color: #4b4b4b85;
 	height: 100%;
@@ -582,6 +586,8 @@ width: 2rem;}
 .container{
 	flex-direction: column;
 }
+
+
 
 }
 

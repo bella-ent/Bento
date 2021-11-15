@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function ServiceCard({ service }) {
 	return (
-		<div>
+		<div className="ser-card-con">
 			<div className="ser-card">
 				<h4>{service.title}</h4>
 				<ul>

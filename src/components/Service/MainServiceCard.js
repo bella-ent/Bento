@@ -1,5 +1,6 @@
 import React from "react";
 import { Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 function MainServiceCard({ props }) {
 	return (
@@ -8,7 +9,9 @@ function MainServiceCard({ props }) {
 			<div className="main-ser-detail">
 				<h3>{props.title}</h3>
 				<p>{props.detail}</p>
-				<Button id="m-service-btn">{props.btn}</Button>
+				<Link to={props.link}>
+					<Button id="m-service-btn">{props.btn}</Button>
+				</Link>
 			</div>
 		</div>
 	);

@@ -6,7 +6,7 @@ function MainMenuCard({ menu }) {
 	const { cost, setCost, menuName, setMenuName, show, setShow } =
 		useContext(orderContext);
 	function addCost() {
-		if (menu.title === "Custom Bento" || menu.title === "undenspezifisches") {
+		if (menu.title === "Custom Bento" || menu.title === "Kundenspezifisches") {
 			setShow(!show);
 		} else {
 			setCost(cost + 10);

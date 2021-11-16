@@ -22,6 +22,10 @@ function MainMenu() {
 		setCost(0);
 	}
 
+	function deleteMenu(menu) {
+		setMenuName(menuName.filter((el) => el.title !== menu.title));
+	}
+
 	return (
 		<div className="main-menu-whole">
 			<h1>Menu</h1>
@@ -47,6 +51,9 @@ function MainMenu() {
 							menuName.map((menu) => (
 								<div className="order-list">
 									<span>{menu}</span> <span> €10 x 1</span>
+									<button onClick={() => deleteMenu(menu)} id="delete">
+										x
+									</button>
 								</div>
 							))
 						)}

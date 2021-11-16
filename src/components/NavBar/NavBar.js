@@ -9,6 +9,7 @@ function NavBar() {
 	const { lang, setLang } = useContext(languageContext);
 	function setLanguage(e) {
 		setLang(e.target.value);
+		console.log(lang);
 	}
 	const [show, setShow] = useState(false);
 	function showDropNav() {
@@ -33,22 +34,7 @@ function NavBar() {
 									<li>{title}</li>
 								</Link>
 						  ))}
-					{/* <Link to="/about">
-						<li>About Us</li>
-					</Link>
-					<Link to="/services">
-						<li>Services</li>
-					</Link>
-					<Link to="/menu">
-						<li>Menu</li>
-					</Link>
-					<Link to="/location">
-						<li>Daily Location</li>
-					</Link>
-					<Link to="/contact">
-						<li>Contact Us</li>
-					</Link> */}
-					<select name="" id="languages">
+					{/* <select name="" id="languages">
 						<option value="" onClick={setLanguage} selected disabled>
 							Language
 						</option>
@@ -58,7 +44,16 @@ function NavBar() {
 						<option value="de" onClick={setLanguage}>
 							Deutsch
 						</option>
-					</select>
+					</select> */}
+					{lang === "de" ? (
+						<button onClick={setLanguage} className="languages-btn" value="en">
+							English
+						</button>
+					) : (
+						<button onClick={setLanguage} className="languages-btn" value="de">
+							Deutsch
+						</button>
+					)}
 				</ul>
 				<img onClick={showDropNav} src={hamburger} alt="menu" id="hamburger" />
 			</div>

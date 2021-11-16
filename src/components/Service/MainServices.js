@@ -1,9 +1,11 @@
-import { mainServicesData } from "../../data/mainServices";
+import { mainServicesData, mainServicesDataDE } from "../../data/mainServices";
 import MainServiceCard from "./MainServiceCard";
-import React, { useEffect } from "react";
+import React, { useEffect, useContext } from "react";
 import { useLocation } from "react-router-dom";
+import languageContext from "../../contexts/languageContext";
 
 function MainServices() {
+	const { lang, setLang } = useContext(languageContext);
 	const { pathname } = useLocation();
 
 	useEffect(() => {
@@ -12,10 +14,10 @@ function MainServices() {
 	return (
 		<div className="mainService">
 			<div id="bg-m-service">
-				<h1>Our Services</h1>
-				{mainServicesData.map((card) => (
-					<MainServiceCard props={card} />
-				))}
+				<h1>{lang === "en" ? "Our Services" : "Unsere Services"}</h1>
+				{lang === "en"
+					? mainServicesData.map((card) => <MainServiceCard props={card} />)
+					: mainServicesDataDE.map((card) => <MainServiceCard props={card} />)}
 			</div>
 		</div>
 	);

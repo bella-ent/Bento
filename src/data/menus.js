@@ -104,10 +104,51 @@ export const detailMenus = [
 	},
 ];
 
+export const detailMenusDE = [
+	{
+		title: "Vegan",
+		detail: ["Genieße gesunden, leckeren und 100 % pflanzlichen Mahlzeiten "],
+		img: vegan,
+		btn: "Order",
+	},
+	{
+		title: "Fisch",
+		detail: ["Ob Sie Lachs oder Thunfisch mögen, wir haben es für Sie"],
+		img: fish,
+		btn: "Order",
+	},
+	{
+		title: "Rindfleisch",
+		detail: [
+			"Der authentische Geschmack des beliebten schnellen Essens in Japan",
+		],
+		img: beef,
+		btn: "Order",
+	},
+	{
+		title: "Hähnchen",
+		detail: [
+			"Eine köstliche Kombination aus Hühnchen, frischem Gemüse und Getreide",
+		],
+		img: chicken,
+		btn: "Order",
+	},
+];
+
 export const random = {
 	title: "Custom Bento",
 	detail: ["You can choose all you want! fun to select your meal"],
 	img: "https://cdn.shopify.com/s/files/1/0115/5776/5179/products/loot-box-ol-512.png?v=1576127282",
 	price: 10,
 	btn: "Select Ingredients",
+};
+
+export const randomDE = {
+	title: "Kundenspezifisches",
+	detail: [
+		"Sie können wählen, was Sie wollen! macht Spaß, Ihr Essen auszuwählen.",
+	],
+	img: "https://cdn.shopify.com/s/files/1/0115/5776/5179/products/loot-box-ol-512.png?v=1576127282",
+	price: 10,
+	btn: "Zutaten auswählen",
 };

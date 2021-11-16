@@ -1,12 +1,14 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useContext } from "react";
 import { useLocation } from "react-router-dom";
 import RandomBox from "./RandomBox";
-import { detailMenus, random } from "../../data/menus";
+import { detailMenus, detailMenusDE, random, randomDE } from "../../data/menus";
 import MainMenuCard from "./MainMenuCard";
 import orderContext from "../../contexts/orderContext";
 import { Modal } from "react-bootstrap";
+import languageContext from "../../contexts/languageContext";
 
 function MainMenu() {
+	const { lang } = useContext(languageContext);
 	const { pathname } = useLocation();
 	useEffect(() => {
 		window.scrollTo(0, 0);
@@ -17,7 +19,11 @@ function MainMenu() {
 	const [show, setShow] = useState(false);
 
 	function pay() {
-		alert("Thank you for your order. We'll deliver your meal in 30 minutes.");
+		alert(
+			lang === "en"
+				? "Thank you for your order. We'll deliver your meal in 30 minutes."
+				: "Vielen Dank für Ihren Auftrag. Wir liefern Ihr Essen in 30 Minuten."
+		);
 		setMenuName([]);
 		setCost(0);
 	}
@@ -28,25 +34,35 @@ function MainMenu() {
 
 	return (
 		<div className="main-menu-whole">
-			<h1>Menu</h1>
+			<h1>{lang === "en" ? "Menu" : "Menü"}</h1>
 			<orderContext.Provider
 				value={{ cost, setCost, menuName, setMenuName, show, setShow }}
 			>
 				<div className="main-menu-con">
 					<div>
 						<div className="main-menus">
-							{detailMenus.map((menu) => (
-								<MainMenuCard menu={menu} />
-							))}
-							<MainMenuCard menu={random} />
+							{lang === "en"
+								? detailMenus.map((menu) => <MainMenuCard menu={menu} />)
+								: detailMenusDE.map((menu) => <MainMenuCard menu={menu} />)}
+							{lang === "en" ? (
+								<MainMenuCard menu={random} />
+							) : (
+								<MainMenuCard menu={randomDE} />
+							)}
 						</div>
 						{/* <RandomBox /> */}
 					</div>
 
 					<div className="order">
-						<h2 id="order-title">Order</h2>
+						<h2 id="order-title">
+							{lang === "en" ? "Your Order" : "Ihre Bestellung"}
+						</h2>
 						{!cost ? (
-							<h5 id="select-meal">Please select your meal</h5>
+							<h5 id="select-meal">
+								{lang === "en"
+									? "Please select your meal."
+									: "Bitte wählen Sie Ihre Gerichte aus."}
+							</h5>
 						) : (
 							menuName.map((menu) => (
 								<div className="order-list">
@@ -75,7 +91,7 @@ function MainMenu() {
 				>
 					<Modal.Header closeButton>
 						<Modal.Title id="example-modal-sizes-title-lg">
-							Custom Bento
+							{lang === "en" ? "Custom Bento" : "Kundenspezifisches Bento"}
 						</Modal.Title>
 					</Modal.Header>
 					<RandomBox />

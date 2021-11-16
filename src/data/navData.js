@@ -9,7 +9,7 @@ export const navEn = [
 export const navDe = [
 	{ title: "Über uns", link: "/about" },
 	{ title: "Services", link: "/services" },
-	{ title: "Menu", link: "/menu" },
+	{ title: "Menü", link: "/menu" },
 	{ title: "Täglicher Standort ", link: "/location" },
 	{ title: "Kontaktiere uns", link: "/contact" },
 ];

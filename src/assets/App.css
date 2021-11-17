@@ -575,9 +575,10 @@ padding: 0 2rem;
 
 .dropdown {
 	position: sticky;
-	top: 7rem;
-	padding: 1rem;
+	top: 5.2rem;
+	padding: 0.5rem;
 	background-color: #ffffff;
+	z-index: 999;
 
 }
 
@@ -682,6 +683,7 @@ width: 2rem;}
 	color: #ffffff;
 	border: 1px dotted #ccc;
 	border-radius: 10px;
+	align-self: center;
 	
 }
 

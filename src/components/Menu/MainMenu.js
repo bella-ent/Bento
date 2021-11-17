@@ -37,7 +37,13 @@ function MainMenu() {
 	}
 
 	function deleteMenu(menu) {
-		setMenuName(menuName.filter((el) => el.title !== menu.title));
+		setMenuName(
+			menuName.filter((el) => {
+				console.log(el, menu);
+				return el !== menu;
+			})
+		);
+		setCost(cost - 10);
 	}
 
 	return (

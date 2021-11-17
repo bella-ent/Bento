@@ -47,11 +47,11 @@ function NavBar() {
 					</select> */}
 					{lang === "de" ? (
 						<button onClick={setLanguage} className="languages-btn" value="en">
-							English
+							Deutsch
 						</button>
 					) : (
 						<button onClick={setLanguage} className="languages-btn" value="de">
-							Deutsch
+							English
 						</button>
 					)}
 				</ul>

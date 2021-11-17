@@ -57,7 +57,10 @@ function NavBar() {
 				</ul>
 				<img onClick={showDropNav} src={hamburger} alt="menu" id="hamburger" />
 			</div>
-			<div className="dropdown">
+			<div
+				className="dropdown"
+				style={!show ? { display: "none" } : { display: "block" }}
+			>
 				<ul
 					style={!show ? { display: "none" } : { display: "block" }}
 					className="drop-con"

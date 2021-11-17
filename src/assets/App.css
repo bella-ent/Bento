@@ -679,8 +679,9 @@ padding: 0 2rem;
 	margin-left: 0 ;
 }
 
-.link-con {
+.link-con * {
 	margin: 0;
+	font-size: 0.8rem;
 }
 }
 

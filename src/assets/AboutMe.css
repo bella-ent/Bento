@@ -29,10 +29,11 @@ width:100%;
 }
 .header{
     margin: 3rem auto 1rem auto;
-	text-align: center;
+	text-align: left;
 	font-size: 2.5rem;
 	font-family: 'Trebuchet W01 Regular';
-	width:70%
+	width:70%;
+	padding-left: 1rem;
 }
 .header span{
 	color: rgb(207, 68, 53);

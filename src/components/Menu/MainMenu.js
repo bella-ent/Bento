@@ -19,13 +19,21 @@ function MainMenu() {
 	const [show, setShow] = useState(false);
 
 	function pay() {
-		alert(
-			lang === "en"
-				? "Thank you for your order. We'll deliver your meal in 30 minutes."
-				: "Vielen Dank für Ihren Auftrag. Wir liefern Ihr Essen in 30 Minuten."
-		);
-		setMenuName([]);
-		setCost(0);
+		if (cost !== 0) {
+			alert(
+				lang === "en"
+					? "Thank you for your order. We'll deliver your meal in 30 minutes."
+					: "Vielen Dank für Ihren Auftrag. Wir liefern Ihr Essen in 30 Minuten."
+			);
+			setMenuName([]);
+			setCost(0);
+		} else {
+			alert(
+				lang === "en"
+					? "Please select your meal first."
+					: "Bitte wählen Sie zuerst Ihre Gerichte aus."
+			);
+		}
 	}
 
 	function deleteMenu(menu) {
@@ -73,14 +81,20 @@ function MainMenu() {
 								</div>
 							))
 						)}
-						<h2 id="total">Total: €{cost}</h2>
-						<span>Pay Now with: </span>
-						<img
-							onClick={pay}
-							src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlJ3lP1KLAPmfY7zfXyZlGXKwNV7bv_csb8A&usqp=CAU"
-							alt="paypal"
-							id="paypal"
-						/>
+						<h2 id="total">
+							{lang === "en" ? "Total:" : "Gesamt"} €{cost}
+						</h2>
+						<div id="paypal-con">
+							<span>
+								{lang === "en" ? "Pay Now with" : "Jetzt bezahlen mit"}
+							</span>
+							<img
+								onClick={pay}
+								src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlJ3lP1KLAPmfY7zfXyZlGXKwNV7bv_csb8A&usqp=CAU"
+								alt="paypal"
+								id="paypal"
+							/>
+						</div>
 					</div>
 				</div>
 				<Modal

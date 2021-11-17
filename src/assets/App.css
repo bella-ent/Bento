@@ -467,6 +467,21 @@ padding: 0 2rem;
 	font-size: 1.5rem;
 }
 
+#paypal-con {
+	margin-top: 2rem;
+	padding: 0.7rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #ffffff;
+	border-radius: 10px;
+}
+
+#paypal-con span {
+	font-weight: 800;
+}
+
 #paypal {
 	width: 8rem;
 	border-radius: 1rem;

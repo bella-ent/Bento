@@ -569,6 +569,18 @@ padding: 0 2rem;
 	list-style: none;
 }
 
+.drop-con li:hover {
+	color: #FF7272;
+}
+
+.dropdown {
+	position: sticky;
+	top: 5rem;
+	padding: 1rem;
+	background-color: #ffffff;
+
+}
+
 #hamburger:hover {
 		border: 2px solid #FF7272;
 }
@@ -614,7 +626,18 @@ width: 2rem;}
 	flex-direction: column;
 }
 
+.location-title h1 {
+	font-size: 2rem;
+}
 
+.location-title h4 {
+	font-size: 1rem;
+}
+
+.days-locations button {
+	font-size: 0.8rem;
+	padding: 0.5rem 1rem;
+}
 
 }
 

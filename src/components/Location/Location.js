@@ -1,7 +1,8 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useContext } from "react";
 import { locations } from "../../data/locationData";
 import { useState } from "react";
 import { useLocation } from "react-router-dom";
+import languageContext from "../../contexts/languageContext";
 
 function Location() {
 	const { pathname } = useLocation();
@@ -10,6 +11,7 @@ function Location() {
 		window.scrollTo(0, 0);
 	}, [pathname]);
 
+	const { lang } = useContext(languageContext);
 	const Today = new Date().getDay();
 	const [Arctic, UKE, Hammerbrook, Altonaer, StGeorg, Eilbek, Arctic2] =
 		locations;
@@ -21,8 +23,12 @@ function Location() {
 		<div className="location">
 			<div className="location-title">
 				<div>
-					<h1>We're here now!</h1>
-					<h4>Find our daily location</h4>
+					<h1>{lang === "en" ? "We're here now!" : "Wir sind jetzt hier!"}</h1>
+					<h4>
+						{lang === "en"
+							? "Find our daily location"
+							: "Finden Sie unseren täglichen Standort"}
+					</h4>
 				</div>
 				<img
 					src="https://media3.giphy.com/media/feiLHLNf3X2zTHNJwS/giphy.gif"

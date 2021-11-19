@@ -681,12 +681,12 @@ padding: 0 2rem;
 	flex-wrap: wrap;
 }
 .main-ser-detail * {
-	margin: 0 3rem;
+	margin: 0 1rem;
 	margin-bottom: 2rem;
 }
 
 .main-ser-detail p {
-	width: 70%
+	width: 100%
 }
 
 #m-service-btn {

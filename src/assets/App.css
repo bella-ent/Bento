@@ -360,7 +360,11 @@ padding: 0 2rem;
 #bg-m-service {
 	background-color: #0000004d;
 	height: 100%;
-		padding-bottom: 8rem;
+	width:100%;
+	padding-bottom: 8rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .mainService h1 {
@@ -373,10 +377,11 @@ padding: 0 2rem;
 .main-ser-card-con {
 	display: flex;
 	background-color: #ffffffc9;
-	margin: 8rem 20% 0 20%;
+	/* margin: 8rem 20% 0 20%; */
 	padding: 2rem;
 	border-radius: 1rem;
-	min-width: 700px;
+	width: 60%;
+	margin-bottom: 3rem;
 	/* margin-bottom: 2rem; */
 
 }
@@ -620,32 +625,13 @@ padding: 0 2rem;
 	color: #ffffff;
 }
 
-@media screen and (max-width: 1060px) {
-	.link-con li {
-		font-size: 0.9rem;
-	}
+	.main-ser-card-con {
+	flex-wrap: wrap;
 }
 
-@media screen and (max-width: 1000px) {
-  .link-con li {
-	  display: none;
-	}  #hamburger {
-		display: block;
-	}
-	/* .main-ser-card-con {
-	padding-bottom: 2rem;
-
-} */
-}
-@media screen and (min-width: 1060px) {
-	.drop-con li {
-		display: none;
-	}
-	
-}
 @media screen and (max-width: 780px) {
 	.nav {
-	padding: 1rem 2rem;
+		padding: 1rem 2rem;
 	}
 
 	#logo {
@@ -691,7 +677,57 @@ padding: 0 2rem;
 	
 }
 
+.main-ser-card-con {
+	flex-wrap: wrap;
+}
+.main-ser-detail * {
+	margin: 0 3rem;
+	margin-bottom: 2rem;
+}
 
+.main-ser-detail p {
+	width: 70%
+}
+
+#m-service-btn {
+	font-size: 1rem;
+}
+
+.header * {
+	font-weight: 800;
+}
+.main-ser-card-con {
+	width: 80%;
+}
+
+
+}
+@media screen and (max-width: 1000px) {
+  .link-con li {
+	  display: none;
+	}  #hamburger {
+		display: block;
+	}
+}
+
+@media screen and (max-width: 1060px) {
+	.link-con li {
+		font-size: 0.9rem;
+	}
+}
+
+@media screen and (min-width: 1060px) {
+	.drop-con li {
+		display: none;
+	}
+	
+}
+
+
+@media screen and (min-width: 1347px) {
+	.main-ser-card-con {
+	flex-wrap: nowrap;
+}
 }
 
 

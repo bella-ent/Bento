@@ -68,12 +68,12 @@ function NavBar() {
 					{lang === "en"
 						? navEn.map(({ title, link }) => (
 								<Link to={link}>
-									<li>{title}</li>
+									<li onClick={showDropNav}>{title}</li>
 								</Link>
 						  ))
 						: navDe.map(({ title, link }) => (
 								<Link to={link}>
-									<li>{title}</li>
+									<li onClick={showDropNav}>{title}</li>
 								</Link>
 						  ))}
 				</ul>

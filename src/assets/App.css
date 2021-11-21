@@ -708,7 +708,10 @@ padding: 0 2rem;
 	width: 17rem;
 	margin-left: 0;
 	height: 100%;
-	padding-bottom: 2rem;
+
+}
+.order-list span {
+	width: 50%;
 }
 
 #paypal-con {

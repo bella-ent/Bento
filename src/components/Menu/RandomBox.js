@@ -1,4 +1,4 @@
-import React, { useState, useRef, useContext } from "react";
+import React, { useState, useRef, useContext, useEffect } from "react";
 import shrimp from "../../img/shrimp.png";
 import salad from "../../img/salad.png";
 import steak from "../../img/steak.png";
@@ -8,9 +8,11 @@ import tofu from "../../img/tofu.png";
 import noodle from "../../img/noodles.png";
 import { Button } from "react-bootstrap";
 import orderContext from "../../contexts/orderContext";
+import languageContext from "../../contexts/languageContext";
 
 function RandomBox() {
 	const { cost, setCost, menuName, setMenuName } = useContext(orderContext);
+	const { lang } = useContext(languageContext);
 	const selections = [
 		{ selection: "shrimp", icon: shrimp },
 		{ selection: "chicken", icon: chicken },
@@ -21,6 +23,9 @@ function RandomBox() {
 		{ selection: "noodle", icon: noodle },
 	];
 	const [ingredients, setIngredients] = useState([]);
+	useEffect(() => {
+		console.log(ingredients);
+	}, [ingredients]);
 
 	const checkbox1 = useRef();
 	const checkbox2 = useRef();
@@ -43,8 +48,16 @@ function RandomBox() {
 	function addCost() {
 		if (ingredients.length === 4) {
 			setCost(cost + 10);
-			setMenuName([...menuName, "Custom Bento"]);
+			setMenuName([
+				...menuName,
+				lang === "en"
+					? `Custom Bento: (with ${ingredients.map((item) => item.selection)})`
+					: `Kundenspezifisches: (mit ${ingredients.map(
+							(item) => item.selection
+					  )})`,
+			]);
 			alert("Your custom Bento is added to your cart");
+			window.scrollTo(0, 0);
 		} else {
 			alert("There should be 4 ingredients in your bento.");
 		}

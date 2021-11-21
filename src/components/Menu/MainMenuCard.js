@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
 import { Button } from "react-bootstrap";
 import orderContext from "../../contexts/orderContext";
 
@@ -11,9 +11,11 @@ function MainMenuCard({ menu }) {
 		} else {
 			setCost(cost + 10);
 			setMenuName([...menuName, menu.title]);
-			window.scrollTo(0, 0);
 		}
 	}
+	useEffect(() => {
+		window.scrollTo(0, 0);
+	}, [cost]);
 	return (
 		<div className="main-menu-card">
 			<img src={menu.img} alt="img" />

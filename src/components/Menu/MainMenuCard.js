@@ -11,6 +11,7 @@ function MainMenuCard({ menu }) {
 		} else {
 			setCost(cost + 10);
 			setMenuName([...menuName, menu.title]);
+			window.scrollTo(0, 0);
 		}
 	}
 	return (

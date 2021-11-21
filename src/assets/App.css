@@ -427,17 +427,21 @@ padding: 0 2rem;
 	width: 100%;
 	height: 100%;
 	margin-bottom: 8rem;
+	
+
 }
 
 .main-menu-con {
 	display: flex;
-	justify-content: space-between;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
 }
 
 .order {
-	width: 20%;
+	width: 20rem;
 	height: 65vh;
 	/* background-color: #ccc; */
+	margin-left: 2rem;
 	padding: 2rem 3rem 1rem 3rem;
 	/* border: 1px dotted #000000; */
 	background-color: #e8f8e0;
@@ -500,7 +504,7 @@ padding: 0 2rem;
 }
 
 .main-menus {
-	width: 77vw;
+	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
@@ -512,6 +516,7 @@ padding: 0 2rem;
 	height: 27rem;
 	border-radius: 1rem;
 	margin-bottom: 2rem;
+	margin-right: 1rem;
 	border: 1px solid #618549;
 	padding: 1rem
 
@@ -699,9 +704,24 @@ padding: 0 2rem;
 .main-ser-card-con {
 	width: 80%;
 }
+.order {
+	width: 17rem;
+	margin-left: 0;
+	height: 100%;
+	padding-bottom: 2rem;
+}
 
+#paypal-con {
+	padding: 0.5rem;
+	width: 10rem;
+}
+#paypal {
+	width: 4rem;
+}
 
 }
+
+
 @media screen and (max-width: 1000px) {
   .link-con li {
 	  display: none;
@@ -714,6 +734,7 @@ padding: 0 2rem;
 	.link-con li {
 		font-size: 0.9rem;
 	}
+	
 }
 
 @media screen and (min-width: 1060px) {

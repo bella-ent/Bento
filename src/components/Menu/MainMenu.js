@@ -53,20 +53,6 @@ function MainMenu() {
 				value={{ cost, setCost, menuName, setMenuName, show, setShow }}
 			>
 				<div className="main-menu-con">
-					<div>
-						<div className="main-menus">
-							{lang === "en"
-								? detailMenus.map((menu) => <MainMenuCard menu={menu} />)
-								: detailMenusDE.map((menu) => <MainMenuCard menu={menu} />)}
-							{lang === "en" ? (
-								<MainMenuCard menu={random} />
-							) : (
-								<MainMenuCard menu={randomDE} />
-							)}
-						</div>
-						{/* <RandomBox /> */}
-					</div>
-
 					<div className="order">
 						<h2 id="order-title">
 							{lang === "en" ? "Your Order" : "Ihre Bestellung"}
@@ -101,6 +87,19 @@ function MainMenu() {
 								id="paypal"
 							/>
 						</div>
+					</div>
+					<div>
+						<div className="main-menus">
+							{lang === "en"
+								? detailMenus.map((menu) => <MainMenuCard menu={menu} />)
+								: detailMenusDE.map((menu) => <MainMenuCard menu={menu} />)}
+							{lang === "en" ? (
+								<MainMenuCard menu={random} />
+							) : (
+								<MainMenuCard menu={randomDE} />
+							)}
+						</div>
+						{/* <RandomBox /> */}
 					</div>
 				</div>
 				<Modal

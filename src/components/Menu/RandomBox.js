@@ -96,7 +96,7 @@ function RandomBox() {
 				</div>
 				<div className="check-con">
 					<h1>Ingredients</h1>
-					<div>
+					<div className="check-list">
 						<div>
 							<input
 								onClick={() => addIngredients(checkbox1)}

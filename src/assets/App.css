@@ -722,6 +722,7 @@ padding: 0 2rem;
 	width: 4rem;
 }
 
+
 }
 
 
@@ -731,27 +732,62 @@ padding: 0 2rem;
 	}  #hamburger {
 		display: block;
 	}
+.check-con {
+	font-size: 1.5rem;
+	text-align: left;
+	margin-left: 2rem;
+	width: 30%;
+}
+
+.check-con label {
+	font-size: 1rem;
+}
+.check-con input {
+	transform: scale(1);
+	margin-right: 1rem;
+	/* margin-left: 1rem; */
+}
+.check-con h1 {
+	font-size: 1.4rem;
+}
+.check-list {
+	line-height: 1;
+}
+
+#menu-btn {
+	font-size: 1rem;
+	padding: 1rem 1rem;
+	margin-top: 1rem;
+}
 }
 
 @media screen and (max-width: 1060px) {
 	.link-con li {
 		font-size: 0.9rem;
 	}
-	
-}
+
+}	
 
 @media screen and (min-width: 1060px) {
 	.drop-con li {
 		display: none;
 	}
-	
+
 }
 
+@media screen and (max-width: 1820px) {
+		.order {
+			width: 57%;
+		height: 100%;
+	
+	}
+}
 
 @media screen and (min-width: 1347px) {
 	.main-ser-card-con {
 	flex-wrap: nowrap;
 }
+
 }
 
 

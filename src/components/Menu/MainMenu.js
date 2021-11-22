@@ -90,14 +90,14 @@ function MainMenu() {
 					</div>
 					<div>
 						<div className="main-menus">
-							{lang === "en"
-								? detailMenus.map((menu) => <MainMenuCard menu={menu} />)
-								: detailMenusDE.map((menu) => <MainMenuCard menu={menu} />)}
 							{lang === "en" ? (
 								<MainMenuCard menu={random} />
 							) : (
 								<MainMenuCard menu={randomDE} />
 							)}
+							{lang === "en"
+								? detailMenus.map((menu) => <MainMenuCard menu={menu} />)
+								: detailMenusDE.map((menu) => <MainMenuCard menu={menu} />)}
 						</div>
 						{/* <RandomBox /> */}
 					</div>

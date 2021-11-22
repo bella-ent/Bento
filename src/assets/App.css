@@ -467,8 +467,14 @@ padding: 0 2rem;
 	justify-content: space-between;
 }
 
-.order-list * {
-	width: 30%;
+#ordered-menu {
+	width: 60%;
+}
+#each-cost {
+	width: 20%;
+}
+.order-list button {
+	width: 20%;
 }
 
 #order-title {

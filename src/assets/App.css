@@ -634,11 +634,28 @@ padding: 0 2rem;
 	flex-wrap: wrap;
 }
 
-@media screen and (max-width: 360px) {
-	/* .order {
-		width: 20rem;
-	padding: 1rem;
-	} */
+@media screen and (max-width: 380px) {
+
+.order {
+	padding: 1rem 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.check-con {
+
+	margin-left: 0rem;
+	padding-left: 1.3rem;
+}
+.main-menu-card, .order {
+	margin-right:0;
+}
+#menu-btn {
+	font-size: 1rem;
+	padding: 1rem 1rem;
+	margin-top: 1rem;
+}
+
 }
 
 @media screen and (max-width: 780px) {
@@ -743,7 +760,7 @@ padding: 0 2rem;
 	font-size: 1.5rem;
 	text-align: left;
 	margin-left: 1rem;
-	width: 30%;
+	width: 50%;
 }
 
 .check-con label {

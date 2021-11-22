@@ -467,6 +467,10 @@ padding: 0 2rem;
 	justify-content: space-between;
 }
 
+.order-list * {
+	width: 30%;
+}
+
 #order-title {
 	margin-bottom: 2rem;
 	color: #FF7272;

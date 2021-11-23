@@ -110,7 +110,7 @@ color: rgb(90, 13, 13);
 	margin-top: 2rem;
 }
 
-#menu-btn,#service-btn, .m-menu-btn {
+#menu-btn,#service-btn, .m-menu-btn, .submitButton {
 	/* margin: 2rem; */
 	padding: 0.6rem 4rem;
 	font-size: 1.4rem;
@@ -136,7 +136,7 @@ color: rgb(90, 13, 13);
 		padding: 0.6rem 1rem;
 }
 
-#menu-btn:hover,#service-btn:hover, #m-service-btn:hover, .m-menu-btn:hover {
+#menu-btn:hover,#service-btn:hover, #m-service-btn:hover, .m-menu-btn:hover, .submitButton:hover {
 	background-color: #618549;	
 
 }

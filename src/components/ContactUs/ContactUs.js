@@ -11,28 +11,32 @@ function ContactUs() {
 	}, [pathname]);
 	return (
 		<div>
-			<div class="contact-container">
-				<div class="contact-box">
+			<div className="contact-container">
+				<div className="contact-box">
 					<h2>Contact Us</h2>
-					<div class="flex">
-						<div class="contact-info">
-							<p>
-								You are planning an event or have questions?<br></br> Reach out to us via our form or email
-								us at	<a href="mailto: info@bentofoodtruck.de "> <br></br>
-									info@bentofoodtruck.de
-								</a>{" "} You can also reach us directly  Mon - Fri , 10.00 - 17.00 under <a href="tel:0176-70834316">0176-70834316</a>.
-								
-							</p>
+					<div className="flex">
+						<div className="contact-info">
+							<div>
+								<p>You are planning an event or have questions?</p>
+								<p>
+									<span> Reach out to us via our form or email us at</span>
+									<a href="mailto: info@bentofoodtruck.de ">
+										info@bentofoodtruck.de
+									</a>
+								</p>
+								You can also reach us directly Mon - Fri , 10.00 - 17.00 under{" "}
+								<a href="tel:0176-70834316">0176-70834316</a>.
+							</div>
 							{/* <p>
 								For more information, visit us on our social media channels:
 							</p> */}
 						</div>
 
-						<div class="contact-form-parent">
+						<div className="contact-form-parent">
 							<form>
 								<fieldset className="contact-form">
 									{/* <legend>Contact Us</legend> */}
-									<div class="name control-margin">
+									<div className="name control-margin">
 										<label for="first_name">
 											Your Name:<span>*</span>
 										</label>
@@ -44,7 +48,7 @@ function ContactUs() {
 											required
 										/>
 									</div>
-									<div class="email control-margin">
+									<div className="email control-margin">
 										<label for="Email">
 											Email:<span>*</span>
 										</label>
@@ -56,11 +60,11 @@ function ContactUs() {
 											required
 										/>
 									</div>
-									<div class="number control-margin">
+									<div className="number control-margin">
 										<label for="phone">Phone Number:(optional)</label>
 										<input type="number" name="phn" id="phone" />
 									</div>
-									<div class="message control-margin">
+									<div className="message control-margin">
 										<label for="message">Your Message:</label>
 										<textarea
 											name="msg"
@@ -75,7 +79,7 @@ function ContactUs() {
 										<label for="contact">
 											How do you like to be contacted?
 										</label>
-									    <br></br>
+										<br></br>
 										<label for="contactP">phone</label>
 										<input type="radio" name="Contact" id="contactP" />
 
@@ -83,7 +87,7 @@ function ContactUs() {
 										<input type="radio" name="Contact" id="contactE" />
 									</div>
 									<div class="button">
-										<input type="submit" class="submitButton" />
+										<input type="submit" className="submitButton" />
 									</div>
 								</fieldset>
 							</form>

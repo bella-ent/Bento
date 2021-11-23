@@ -66,7 +66,7 @@ function MainMenu() {
 						) : (
 							menuName.map((menu) => (
 								<div className="order-list">
-									<span id="ordered-menu">{menu}</span> <span> €10 x 1</span>
+									<span id="ordered-menu">{menu}</span> <span id="each-cost"> €10 x 1</span>
 									<button onClick={() => deleteMenu(menu)} id="delete">
 										x
 									</button>

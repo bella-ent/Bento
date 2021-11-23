@@ -14,7 +14,7 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
-  height: 100vh;
+  height: 100%;
   margin: 0 auto;
   align-items: center;
   font-size: 25px;
@@ -30,6 +30,7 @@
 .contact-box h2 {
   font-size: 4rem;
 font-family: 'Lobster', cursive;
+margin-bottom: 2rem;
 }
 
 .button,
@@ -39,6 +40,15 @@ font-family: 'Lobster', cursive;
 .contact input {
     margin: 10px;
   }
+
+  .contact-info {
+    width: 60%;
+
+  }
+.contact-info * {
+  font-size: 1.4rem;
+  line-height: 1;
+}
 .contact-info a {
   color: cyan;
 }
@@ -57,7 +67,9 @@ font-family: 'Lobster', cursive;
 }
 
 .contact-form-parent{
-    width: 35%;
+    width: 60%;
+    margin: 2rem 0 3rem 0;
+    font-size: 1.3rem;
 }
 
 label{
@@ -67,4 +79,16 @@ label{
 .contact {
   text-align: left;
   margin-left: 30px;
+}
+
+
+@media screen and (max-width: 600px) {
+  .contact-form-parent{
+    width: 90%;
+}
+  .contact-info {
+    width: 90%;
+
+  }
+
 }

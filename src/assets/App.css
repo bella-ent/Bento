@@ -667,6 +667,7 @@ padding: 0 2rem;
 	margin-top: 1rem;
 }
 
+
 }
 
 @media screen and (max-width: 780px) {
@@ -757,6 +758,13 @@ padding: 0 2rem;
 	width: 4rem;
 }
 
+.jumbotron img {
+	height:20rem;
+	object-position: left;
+	object-fit:cover;
+	position: relative;
+	/* background-color: #8FC46C; */
+}
 
 }
 
